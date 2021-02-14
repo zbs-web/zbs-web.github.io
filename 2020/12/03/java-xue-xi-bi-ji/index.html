@@ -1,0 +1,1299 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Java学习笔记, Zbs(专栏)">
+    <meta name="description" content="Java学习笔记一、Java常用API
+
+字符串遍历方式：
+
+String.charAt();
+String.subString(beginIndex, endIndex);
+String.toCharArray();
+使用方法：// 方法">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Java学习笔记 | Zbs(专栏)</title>
+    <link rel="icon" type="image/png" href="/blogImage.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+    
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Zbs(专栏)" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper head-container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Zbs(专栏)</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Zbs(专栏)</div>
+        <div class="logo-desc">
+            
+            这里有我每天学习时的一些感悟
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+<li class="m-nav-item">
+			
+				<a href="/" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-home"></i>
+					
+					首页
+				</a>
+          
+        </li>
+        
+<li class="m-nav-item">
+			
+				<a href="/tags" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-tags"></i>
+					
+					标签
+				</a>
+          
+        </li>
+        
+<li class="m-nav-item">
+			
+				<a href="/categories" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-bookmark"></i>
+					
+					分类
+				</a>
+          
+        </li>
+        
+<li class="m-nav-item">
+			
+				<a href="/archives" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-archive"></i>
+					
+					归档
+				</a>
+          
+        </li>
+        
+<li class="m-nav-item">
+			
+				<a href="/about" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-user-circle"></i>
+					
+					关于
+				</a>
+          
+        </li>
+        
+<li class="m-nav-item">
+			
+				<a href="/contact" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-comments"></i>
+					
+					Contact
+				</a>
+          
+        </li>
+        
+<li class="m-nav-item">
+			
+				<a href="/friends" class="waves-effect waves-light">
+					
+					<i class="fa-fw fas fa-address-book"></i>
+					
+					友情链接
+				</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        Java学习笔记
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%B1%BB/" class="post-category">
+                                软件开发类
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-12-03
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        1.7k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        6 分
+                    </div>
+                    
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="Java学习笔记"><a href="#Java学习笔记" class="headerlink" title="Java学习笔记"></a>Java学习笔记</h1><h2 id="一、Java常用API"><a href="#一、Java常用API" class="headerlink" title="一、Java常用API"></a>一、Java常用API</h2><hr>
+<ol>
+<li><p>字符串遍历方式：</p>
+<ul>
+<li>String.charAt();</li>
+<li>String.subString(beginIndex, endIndex);</li>
+<li>String.toCharArray();</li>
+<li>使用方法：<pre><code>// 方法一：
+for(int i=0; i &lt; str.length(); i++) {
+   System.out.println(str.charAt(i)); 
+}
+
+// 方法二
+for(int i=0; i &lt; str.length(); i++) {
+   System.out.println(str.substring(i,i+1)); 
+   
+}
+
+// 方法三
+char[]  c = str.toCharArray();
+for(int i=0; i &lt; c.length; i++) {
+   System.out.println(c[i]);
+}
+   </code></pre>
+</li>
+</ul>
+</li>
+<li><p>字符串拼接：</p>
+<ul>
+<li>常用拼接方式：<ul>
+<li>使用<code>+</code>连接</li>
+<li>StringBuffer.append()</li>
+<li>StringBuilder.append()<ul>
+<li>区别：StringBuffer仅仅比StringBuilder多了synchronized关键字。</li>
+</ul>
+</li>
+<li>String.concat(string_01)<ul>
+<li>该方法是String类的实例方法</li>
+</ul>
+</li>
+<li>String.join(string_01, string_02, ……); <ul>
+<li>该方法是String类的静态方法</li>
+<li>源代码中，调用StringJoiner类的实例方法join()</li>
+</ul>
+</li>
+<li>StringUtils.join(string_01, string_02, ……)</li>
+</ul>
+</li>
+<li>直接使用<code>+</code>连接多个字符串，系统性能消耗太大。虽然编译器会对其进行优化（使用StringBuilder对象），但编译后生成的StringBuilder会很多。</li>
+<li>建议：<ul>
+<li>使用<code>StringBuilder</code>对象进行拼接。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>字符串反转：</p>
+<ul>
+<li><p>常用反转方法：</p>
+<ol>
+<li>字符串从后往前遍历。</li>
+<li>StringBuilder的reverse()</li>
+<li>前后字符串互换</li>
+<li>Collections的静态方法reverse()</li>
+</ol>
+</li>
+<li><p>示例：</p>
+<pre><code>// 方法一-字符串从后往前遍历
+String output = new String();
+for (int i = ("asdf".length() - 1); i &gt;= 0; i--) {
+   output += ("asdf".charAt(i));
+}
+
+// 方法二-StringBuilder的reverse()
+StringBuilder builder = new StringBuilder("asdf");
+String output = builder.reverse().toString();
+
+// 方法三-前后字符串互换
+char[] array = "asdf".toCharArray();
+int length = array.length - 1;
+int half = (int) Math.floor(array.length / 2);
+char c;
+for (int i = length; i &gt;= half; i--) {
+   c = array[length - i];
+   array[length - i] = array[i];
+   array[i] = c;
+}
+
+// 方法四-Collections的静态方法reverse()
+List&lt;Character&gt; aLetterList = new ArrayList&lt;&gt;();
+for (char aLetter : "asdf".toCharArray()) {
+   aLetterList.add(aLetter);
+}
+/* 字符串反转 */
+Collections.reverse(aLetterList);
+StringBuilder builder = new StringBuilder();
+for (char letter : aLetterList) {
+   builder.append(letter);
+}
+
+   </code></pre>
+
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="二、Web服务器基础"><a href="#二、Web服务器基础" class="headerlink" title="二、Web服务器基础"></a>二、Web服务器基础</h2><hr>
+<ol>
+<li><p>静态资源与动态资源：</p>
+<ul>
+<li>静态资源：由客户端向服务器取得已经存在的相应文件，服务器返回给客户端，并由客户端渲染解析。</li>
+<li>动态资源：客户端请求的动态资源，先由服务器交由数据库处理，再将处理好的内容返回给客户端。</li>
+</ul>
+</li>
+<li><p>HTTP协议：</p>
+<ul>
+<li>HTTP请求方法（以不同的方式操作指定资源）：<ul>
+<li>Get：向指定资源发出读取数据请求。</li>
+<li>Head：向指定资源发出读取数据请求，服务器不返回资源的正文部分，仅有头部信息（元数据）。</li>
+<li>Post: 向指定资源<strong>提交数据</strong><ul>
+<li>例如：提交表单、上传数据</li>
+</ul>
+</li>
+<li>Put：向指定资源<strong>提交数据</strong></li>
+<li>Delete：请求服务器删除URL指定的资源</li>
+<li>Trace：回显服务器收到的请求</li>
+<li>Options：使服务器传回该资源所支持的所有HTTP请求方法</li>
+<li>Connect：HTTP/1.1协议中预留给能够将连接改为<strong>管道方式</strong>的代理服务器。</li>
+<li>注意事项：<ul>
+<li>以上的请求方法一定要被对应的资源所支持。</li>
+<li>HTTP服务器至少应该实现GET和HEAD方法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>状态码：<ul>
+<li><code>1xx</code>: 消息——请求已被服务器接收，继续处理</li>
+<li><code>2xx</code>: 成功——请求已成功被服务器接收、理解、并接受</li>
+<li><code>3xx</code>: 重定向——需要后续操作才能完成这一请求</li>
+<li><code>4xx</code>:请求错误——请求含有词法错误或者无法被执行</li>
+<li><code>5xx</code>: 服务器错误——服务器处理某个正确请求时发生错误</li>
+</ul>
+</li>
+<li>请求报文：<ul>
+<li>构成：请求行 + 请求头 + 请求正文</li>
+<li>如图所示<br><img src="2020-12-3-Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-1.jpg"><img src="/2020/12/03/java-xue-xi-bi-ji/java-1.jpg" class=""></li>
+</ul>
+</li>
+<li>相应报文：<ul>
+<li>构成： 响应行 + 响应头 + 响应正文</li>
+<li>如图所示：<br><img src="2020-12-3-Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-2.jpg"><img src="/2020/12/03/java-xue-xi-bi-ji/java-2.jpg" class="">
+
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="三、异常"><a href="#三、异常" class="headerlink" title="三、异常"></a>三、异常</h2><hr>
+<ol>
+<li><p>JVM默认异常处理方式：</p>
+<ul>
+<li>将异常名称 + 异常详细信息 + 异常位置输出在控制台上，同时程序停止运行。</li>
+<li>示例：<pre><code>// 控制台输出内容
+Exception in thread "main" java.lang.ArithmeticException: 
+
++
+
+/ by zero 
+
++
+
+at cn。itcast_01.ExceptionDemo.main(ExceptionDemo.java:31)
+   </code></pre>
+</li>
+</ul>
+</li>
+<li><p>Throwable类的常见方法：</p>
+<ul>
+<li><code>getMessage()</code>： 返回异常详细信息</li>
+<li><code>toString()</code>: 返回异常详细信息 + 异常名称</li>
+<li><code>printStackTrace()</code>: 返回异常详细信息 + 异常名称 + 异常位置</li>
+</ul>
+</li>
+<li><p>异常的分类：</p>
+<ul>
+<li>Exception（extends Throwable）<ul>
+<li>可检测异常（Checked Exception）：必须被显式捕获处理<ul>
+<li>一般为代码逻辑异常，可以通过<em>try-catch</em>块处理。</li>
+</ul>
+</li>
+<li>不检测异常（Unchecked Exception）：也叫做运行时异常。</li>
+</ul>
+</li>
+<li>Error（extends Throwable）<ul>
+<li>一般为JVM异常，不可被捕获处理。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>异常的注意事项：</p>
+<ul>
+<li>多个catch块排列顺序：由细到粗、从子类到父类</li>
+<li>throw语句抛出异常后，之后额语句不会执行。</li>
+</ul>
+</li>
+</ol>
+<h2 id="四、集合"><a href="#四、集合" class="headerlink" title="四、集合"></a>四、集合</h2><hr>
+<ol>
+<li>迭代器的使用<ul>
+<li>实现Collection接口的类<ol>
+<li>与while循环结合<pre><code>// 创建一个List
+ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+
+// 创建迭代器
+Iterator iterator = list.iterator();
+
+// 迭代列表
+/**
+* Iterator.next(): 返回下一元素，并往后移一位
+*/
+while(iterator.hasNext()) {
+   System.out.println(iterator.next());
+}
+      </code></pre></li>
+<li>forEach循环：<ul>
+<li>forEach循环本身就相当于一个迭代器</li>
+<li>示例i:<pre><code>for (String letter : list) {
+   System.out.println(letter);
+}
+         </code></pre></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>实现Map接口的类<ol>
+<li>与while循环结合<pre><code>// 创建一个Map
+HashMap&lt;String, Object&gt; map = new HashMap&lt;&gt;();
+
+// 创建迭代器
+/**
+* 通过entrySet返回迭代器对象
+*/
+Iterator iterator = map.entrySet().iterator();
+
+// 迭代遍历
+while (iterator.hasNext()) {
+   System.out.println(iterator.next())
+}
+      </code></pre></li>
+<li>forEach循环<ul>
+<li>示例：<pre><code>for (Object entrySet : map.entrySet()) {
+   System.out.println(entrySet)
+}
+         </code></pre>
+
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="五、IO"><a href="#五、IO" class="headerlink" title="五、IO"></a>五、IO</h2><hr>
+<ol>
+<li><p>数据流分类：</p>
+<ul>
+<li>字节流<ul>
+<li>对应的IO类的方法以Stream方法结尾</li>
+</ul>
+</li>
+<li>字符流：由一个个的字符组成的、有顺序的、单向的、有起点和终点的数据集合。<ul>
+<li>Java中的字符统一采用Unicode编码。即一个字符占2个字节</li>
+<li>对应的IO类的方法以Reader / Writer结尾</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>IO类中的常见方法：</p>
+<ul>
+<li>可根据数据流的类别将IO类的方法分为两类，如图所示。<br><img src="2020-12-3-Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-3.jpg"><img src="/2020/12/03/java-xue-xi-bi-ji/java-3.jpg" class="">
+</li>
+</ul>
+</li>
+<li><p>在 Java7 之后，可以在 try 块中打开流，最后程序会自动关闭流对象。</p>
+</li>
+<li><p>在字节输入流中，InputStream是所有字节输入流的父类，InputStream类有3个基本的读方法：</p>
+<ul>
+<li><code>read()</code>：读取并返回一个字节的数据，<ul>
+<li>如果返回-1，表示读到了输入流的末尾。</li>
+</ul>
+</li>
+<li><code>read(byte[] b)</code>：将数据读入一个字节数组，同时返回实际读取的字节数。<ul>
+<li><ul>
+<li>如果返回-1，表示读到了输入流的末尾。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>read(byte[] b, int off, int len)</code>：将最大字节数为len的数据读入到起始偏移位置为off的数组b中。</li>
+</ul>
+</li>
+<li><p>在字节输出流中，OutputStream是所有字节输出流的父类，OutputStream类有3个基本的写方法：</p>
+<ul>
+<li><code>write(int b)</code>：往输出流中写入一个字节。</li>
+<li><code>write(byte[] b)</code>：把数组b中的所有字节输出。</li>
+<li><code>write(byte[] b, int off, int len)</code>: 把数组b中从起始偏移量off开始的len个字节的数据输出。</li>
+</ul>
+</li>
+<li><p>在字符输入流中，Reader是所有字符输入流的父类，Reader类有3个基本的读方法：</p>
+<ul>
+<li><code>read()</code>：读取并返回一个字符。</li>
+<li><code>read(char cbuf[])</code>: 读取一系列字符到数组 cbuf[]中，返回值为实际读取的字符的数量。</li>
+<li><code>read(char cbuf[],int off,int len)</code>: 读取 len 个字符，从数组 cbuf[] 的下标 off 处开始存放，返回值为实际读取的字符数量。</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>参考文章：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/yysbolg/archive/2020/08/20/13532971.html">七种java字符串拼接详解</a>、<a target="_blank" rel="noopener" href="https://www.cnblogs.com/taich-flute/p/10070143.html">Java反转字符串的10种方法</a>、<a target="_blank" rel="noopener" href="https://www.cnblogs.com/an-wen/p/11180076.html">HTTP协议详解</a></p>
+</blockquote>
+
+            </div>
+            <hr/>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        <p class="reprint-tip">
+            <i class="fas fa-exclamation-triangle"></i>&nbsp;&nbsp;
+            <span>转载规则</span>
+        </p>
+        
+            <div class="center-align">
+                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank">
+                    <img alt=""
+                         style="border-width:0"
+                         src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+                </a>
+            </div>
+            <br/>
+            <a  href="/2020/12/03/java-xue-xi-bi-ji/">
+                    《Java学习笔记》
+            </a> 由
+            <a href="https://zbs-web.github.io">
+                Zbs
+            </a> 采用
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank">
+                知识共享署名 4.0 国际许可协议
+            </a>进行许可。
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/12/09/hutool-xue-xi-bi-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Hutool学习笔记">
+                        
+                        <span class="card-title">Hutool学习笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            这是我在线阅读Hutool参考文档的学习笔记
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-09
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%B1%BB/" class="post-category">
+                                    软件开发类
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hutool/">
+                        <span class="chip bg-color">Hutool</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/12/02/redis-xue-xi-bi-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Redis学习笔记">
+                        
+                        <span class="card-title">Redis学习笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            这是我在线学习Redis数据库的学习笔记
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%B1%BB/" class="post-category">
+                                    软件开发类
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Redis-%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        <span class="chip bg-color">Redis, 数据库</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('100')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Zbs(专栏)<br />'
+            + '作者: Zbs<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">年份</span>
+            <a href="https://zbs-web.github.io" target="_blank">Zbs</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">23.8k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    window.setTimeout("siteTime()", 1000);
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "6";
+                    var startDate = "28";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/zbs02355" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:zbs02355@outlook.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1026905265" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1026905265" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/u/3942691686" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/u/3942691686" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i["DaoVoiceObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.charset = "utf-8";
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
+        daovoice('init', {
+            app_id: ""
+        });
+        daovoice('update');
+    </script>
+    
+
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+    
+    
+
+</body>
+
+</html>

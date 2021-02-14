@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>用户行为分析学习笔记</title>
+      <link href="2021/02/08/yong-hu-xing-wei-fen-xi-xue-xi-bi-ji/"/>
+      <url>2021/02/08/yong-hu-xing-wei-fen-xi-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="用户行为分析"><a href="#用户行为分析" class="headerlink" title="用户行为分析"></a>用户行为分析</h1><h3 id="概念篇"><a href="#概念篇" class="headerlink" title="概念篇"></a>概念篇</h3><hr><ol><li><p><strong>用户行为</strong>定义：用户自己在产品上产生的行为，</p></li><li><p>以抖音为例，小明的行为数据有：启动APP、浏览、查看图集、播放视频、点赞、关注</p></li><li><p>用户行为分析：</p><ul><li>定义1：研究、分析用户行为的数据</li><li>定义2：是指在获得网站或APP等平台访问量基本数据的情况下，对有关数据进行统计、分析，从中发现用户访问网站或APP等平台的规律，并将这些规律与网络营销策略等相结合，从而发现目前网络营销活动中可能存在的问题，并为进一步修正或重新制定网络营销策略提供依据。</li><li>作用：<ul><li>还原用户使用的真实过程 <pre><code>一个XXX的人，在xxx环境中，在xxx时间点，做了xxx事情，如何做的，结果如何。         </code></pre></li><li>让企业更加详细、清楚地了解用户的行为习惯</li><li>获取用户停留时长</li></ul></li></ul></li><li><p>用户行为分析的方法</p><ul><li>留存分析：<ol><li>定义：衡量用户是否再次使用产品的指标</li><li>类型：<ul><li>用户留存：用户使用app后，经过一段时间仍旧使用。</li><li>功能留存：用户使用xxx功能后，经过一段时间仍旧使用该功能，且其他功能均有所变化。</li></ul></li></ol></li><li>网站易用性分析： <pre><code>易用性反映在：   清晰的导航系统   方便的搜索系统   醒目的引导系统      </code></pre></li><li>用户分群分析： <pre><code>根据用户画像的标签信息将用户分群，了解不同群体对产品的反馈。      </code></pre></li></ul></li></ol><h3 id="常见分析模型篇"><a href="#常见分析模型篇" class="headerlink" title="常见分析模型篇"></a>常见分析模型篇</h3><hr><ol><li>行为事件分析</li></ol><blockquote><p>参考文章：<a href="http://www.woshipm.com/user-research/3661625.html">用户行为分析是什么？怎么做？</a>; <a href="https://zhuanlan.zhihu.com/p/77509726">几种常用用户行为分析模型简述</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 产品经理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 产品经理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>云计算学习笔记</title>
+      <link href="2020/12/12/yun-ji-suan-xue-xi-bi-ji/"/>
+      <url>2020/12/12/yun-ji-suan-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="云计算学习笔记"><a href="#云计算学习笔记" class="headerlink" title="云计算学习笔记"></a>云计算学习笔记</h1><h2 id="导论"><a href="#导论" class="headerlink" title="导论"></a>导论</h2><hr><ol><li><p>云计算实现了资源和计算能力的分布式共享，能够很好地满足当前互联网数据量高速增长的需要。</p></li><li><p>云计算将各种计算任务分布在大量计算机构成的资源池中，使各种应用系统根据需要获取算力和存储空间。</p></li><li><p>云计算的类型：</p><ul><li>IaaS（Infrastructure Service）：基础服务</li><li>PaaS（Plantform Service）：平台服务</li><li>SaaS（Software Service）：软件服务</li></ul></li><li><p>云计算的部署模式：</p><ul><li>公有云</li><li>私有云</li><li>混合云</li></ul></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 云计算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hutool学习笔记</title>
+      <link href="2020/12/09/hutool-xue-xi-bi-ji/"/>
+      <url>2020/12/09/hutool-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hutool学习笔记"><a href="#Hutool学习笔记" class="headerlink" title="Hutool学习笔记"></a>Hutool学习笔记</h1><h3 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h3><hr><ol><li><p><code>Convert.toXXX()</code>：可以实现将任意可能的类型转换为指定类型。</p></li><li><p><code>Convert.toStr()</code>：转换为字符串</p></li><li><p><code>Convert.toIntArray()</code>：转换为整型数组</p></li><li><p><code>Convert.</code></p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hutool </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java学习笔记</title>
+      <link href="2020/12/03/java-xue-xi-bi-ji/"/>
+      <url>2020/12/03/java-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java学习笔记"><a href="#Java学习笔记" class="headerlink" title="Java学习笔记"></a>Java学习笔记</h1><h2 id="一、Java常用API"><a href="#一、Java常用API" class="headerlink" title="一、Java常用API"></a>一、Java常用API</h2><hr><ol><li><p>字符串遍历方式：</p><ul><li>String.charAt();</li><li>String.subString(beginIndex, endIndex);</li><li>String.toCharArray();</li><li>使用方法：<pre><code>// 方法一：for(int i=0; i &lt; str.length(); i++) {   System.out.println(str.charAt(i)); }// 方法二for(int i=0; i &lt; str.length(); i++) {   System.out.println(str.substring(i,i+1));    }// 方法三char[]  c = str.toCharArray();for(int i=0; i &lt; c.length; i++) {   System.out.println(c[i]);}   </code></pre></li></ul></li><li><p>字符串拼接：</p><ul><li>常用拼接方式：<ul><li>使用<code>+</code>连接</li><li>StringBuffer.append()</li><li>StringBuilder.append()<ul><li>区别：StringBuffer仅仅比StringBuilder多了synchronized关键字。</li></ul></li><li>String.concat(string_01)<ul><li>该方法是String类的实例方法</li></ul></li><li>String.join(string_01, string_02, ……); <ul><li>该方法是String类的静态方法</li><li>源代码中，调用StringJoiner类的实例方法join()</li></ul></li><li>StringUtils.join(string_01, string_02, ……)</li></ul></li><li>直接使用<code>+</code>连接多个字符串，系统性能消耗太大。虽然编译器会对其进行优化（使用StringBuilder对象），但编译后生成的StringBuilder会很多。</li><li>建议：<ul><li>使用<code>StringBuilder</code>对象进行拼接。</li></ul></li></ul></li><li><p>字符串反转：</p><ul><li><p>常用反转方法：</p><ol><li>字符串从后往前遍历。</li><li>StringBuilder的reverse()</li><li>前后字符串互换</li><li>Collections的静态方法reverse()</li></ol></li><li><p>示例：</p><pre><code>// 方法一-字符串从后往前遍历String output = new String();for (int i = ("asdf".length() - 1); i &gt;= 0; i--) {   output += ("asdf".charAt(i));}// 方法二-StringBuilder的reverse()StringBuilder builder = new StringBuilder("asdf");String output = builder.reverse().toString();// 方法三-前后字符串互换char[] array = "asdf".toCharArray();int length = array.length - 1;int half = (int) Math.floor(array.length / 2);char c;for (int i = length; i &gt;= half; i--) {   c = array[length - i];   array[length - i] = array[i];   array[i] = c;}// 方法四-Collections的静态方法reverse()List&lt;Character&gt; aLetterList = new ArrayList&lt;&gt;();for (char aLetter : "asdf".toCharArray()) {   aLetterList.add(aLetter);}/* 字符串反转 */Collections.reverse(aLetterList);StringBuilder builder = new StringBuilder();for (char letter : aLetterList) {   builder.append(letter);}   </code></pre></li></ul></li></ol><h2 id="二、Web服务器基础"><a href="#二、Web服务器基础" class="headerlink" title="二、Web服务器基础"></a>二、Web服务器基础</h2><hr><ol><li><p>静态资源与动态资源：</p><ul><li>静态资源：由客户端向服务器取得已经存在的相应文件，服务器返回给客户端，并由客户端渲染解析。</li><li>动态资源：客户端请求的动态资源，先由服务器交由数据库处理，再将处理好的内容返回给客户端。</li></ul></li><li><p>HTTP协议：</p><ul><li>HTTP请求方法（以不同的方式操作指定资源）：<ul><li>Get：向指定资源发出读取数据请求。</li><li>Head：向指定资源发出读取数据请求，服务器不返回资源的正文部分，仅有头部信息（元数据）。</li><li>Post: 向指定资源<strong>提交数据</strong><ul><li>例如：提交表单、上传数据</li></ul></li><li>Put：向指定资源<strong>提交数据</strong></li><li>Delete：请求服务器删除URL指定的资源</li><li>Trace：回显服务器收到的请求</li><li>Options：使服务器传回该资源所支持的所有HTTP请求方法</li><li>Connect：HTTP/1.1协议中预留给能够将连接改为<strong>管道方式</strong>的代理服务器。</li><li>注意事项：<ul><li>以上的请求方法一定要被对应的资源所支持。</li><li>HTTP服务器至少应该实现GET和HEAD方法</li></ul></li></ul></li><li>状态码：<ul><li><code>1xx</code>: 消息——请求已被服务器接收，继续处理</li><li><code>2xx</code>: 成功——请求已成功被服务器接收、理解、并接受</li><li><code>3xx</code>: 重定向——需要后续操作才能完成这一请求</li><li><code>4xx</code>:请求错误——请求含有词法错误或者无法被执行</li><li><code>5xx</code>: 服务器错误——服务器处理某个正确请求时发生错误</li></ul></li><li>请求报文：<ul><li>构成：请求行 + 请求头 + 请求正文</li><li>如图所示<br><img src="2020-12-3-Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-1.jpg"><img src="/2020/12/03/java-xue-xi-bi-ji/java-1.jpg" class=""></li></ul></li><li>相应报文：<ul><li>构成： 响应行 + 响应头 + 响应正文</li><li>如图所示：<br><img src="2020-12-3-Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-2.jpg"><img src="/2020/12/03/java-xue-xi-bi-ji/java-2.jpg" class=""></li></ul></li></ul></li></ol><h2 id="三、异常"><a href="#三、异常" class="headerlink" title="三、异常"></a>三、异常</h2><hr><ol><li><p>JVM默认异常处理方式：</p><ul><li>将异常名称 + 异常详细信息 + 异常位置输出在控制台上，同时程序停止运行。</li><li>示例：<pre><code>// 控制台输出内容Exception in thread "main" java.lang.ArithmeticException: +/ by zero +at cn。itcast_01.ExceptionDemo.main(ExceptionDemo.java:31)   </code></pre></li></ul></li><li><p>Throwable类的常见方法：</p><ul><li><code>getMessage()</code>： 返回异常详细信息</li><li><code>toString()</code>: 返回异常详细信息 + 异常名称</li><li><code>printStackTrace()</code>: 返回异常详细信息 + 异常名称 + 异常位置</li></ul></li><li><p>异常的分类：</p><ul><li>Exception（extends Throwable）<ul><li>可检测异常（Checked Exception）：必须被显式捕获处理<ul><li>一般为代码逻辑异常，可以通过<em>try-catch</em>块处理。</li></ul></li><li>不检测异常（Unchecked Exception）：也叫做运行时异常。</li></ul></li><li>Error（extends Throwable）<ul><li>一般为JVM异常，不可被捕获处理。</li></ul></li></ul></li><li><p>异常的注意事项：</p><ul><li>多个catch块排列顺序：由细到粗、从子类到父类</li><li>throw语句抛出异常后，之后额语句不会执行。</li></ul></li></ol><h2 id="四、集合"><a href="#四、集合" class="headerlink" title="四、集合"></a>四、集合</h2><hr><ol><li>迭代器的使用<ul><li>实现Collection接口的类<ol><li>与while循环结合<pre><code>// 创建一个ListArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();// 创建迭代器Iterator iterator = list.iterator();// 迭代列表/*** Iterator.next(): 返回下一元素，并往后移一位*/while(iterator.hasNext()) {   System.out.println(iterator.next());}      </code></pre></li><li>forEach循环：<ul><li>forEach循环本身就相当于一个迭代器</li><li>示例i:<pre><code>for (String letter : list) {   System.out.println(letter);}         </code></pre></li></ul></li></ol></li><li>实现Map接口的类<ol><li>与while循环结合<pre><code>// 创建一个MapHashMap&lt;String, Object&gt; map = new HashMap&lt;&gt;();// 创建迭代器/*** 通过entrySet返回迭代器对象*/Iterator iterator = map.entrySet().iterator();// 迭代遍历while (iterator.hasNext()) {   System.out.println(iterator.next())}      </code></pre></li><li>forEach循环<ul><li>示例：<pre><code>for (Object entrySet : map.entrySet()) {   System.out.println(entrySet)}         </code></pre></li></ul></li></ol></li></ul></li></ol><h2 id="五、IO"><a href="#五、IO" class="headerlink" title="五、IO"></a>五、IO</h2><hr><ol><li><p>数据流分类：</p><ul><li>字节流<ul><li>对应的IO类的方法以Stream方法结尾</li></ul></li><li>字符流：由一个个的字符组成的、有顺序的、单向的、有起点和终点的数据集合。<ul><li>Java中的字符统一采用Unicode编码。即一个字符占2个字节</li><li>对应的IO类的方法以Reader / Writer结尾</li></ul></li></ul></li><li><p>IO类中的常见方法：</p><ul><li>可根据数据流的类别将IO类的方法分为两类，如图所示。<br><img src="2020-12-3-Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/java-3.jpg"><img src="/2020/12/03/java-xue-xi-bi-ji/java-3.jpg" class=""></li></ul></li><li><p>在 Java7 之后，可以在 try 块中打开流，最后程序会自动关闭流对象。</p></li><li><p>在字节输入流中，InputStream是所有字节输入流的父类，InputStream类有3个基本的读方法：</p><ul><li><code>read()</code>：读取并返回一个字节的数据，<ul><li>如果返回-1，表示读到了输入流的末尾。</li></ul></li><li><code>read(byte[] b)</code>：将数据读入一个字节数组，同时返回实际读取的字节数。<ul><li><ul><li>如果返回-1，表示读到了输入流的末尾。</li></ul></li></ul></li><li><code>read(byte[] b, int off, int len)</code>：将最大字节数为len的数据读入到起始偏移位置为off的数组b中。</li></ul></li><li><p>在字节输出流中，OutputStream是所有字节输出流的父类，OutputStream类有3个基本的写方法：</p><ul><li><code>write(int b)</code>：往输出流中写入一个字节。</li><li><code>write(byte[] b)</code>：把数组b中的所有字节输出。</li><li><code>write(byte[] b, int off, int len)</code>: 把数组b中从起始偏移量off开始的len个字节的数据输出。</li></ul></li><li><p>在字符输入流中，Reader是所有字符输入流的父类，Reader类有3个基本的读方法：</p><ul><li><code>read()</code>：读取并返回一个字符。</li><li><code>read(char cbuf[])</code>: 读取一系列字符到数组 cbuf[]中，返回值为实际读取的字符的数量。</li><li><code>read(char cbuf[],int off,int len)</code>: 读取 len 个字符，从数组 cbuf[] 的下标 off 处开始存放，返回值为实际读取的字符数量。</li></ul></li></ol><blockquote><p>参考文章：<a href="https://www.cnblogs.com/yysbolg/archive/2020/08/20/13532971.html">七种java字符串拼接详解</a>、<a href="https://www.cnblogs.com/taich-flute/p/10070143.html">Java反转字符串的10种方法</a>、<a href="https://www.cnblogs.com/an-wen/p/11180076.html">HTTP协议详解</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Redis学习笔记</title>
+      <link href="2020/12/02/redis-xue-xi-bi-ji/"/>
+      <url>2020/12/02/redis-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Redis学习笔记"><a href="#Redis学习笔记" class="headerlink" title="Redis学习笔记"></a>Redis学习笔记</h1><h3 id="概念篇"><a href="#概念篇" class="headerlink" title="概念篇"></a>概念篇</h3><hr><ol><li><p>Redis数据库（REmote DIctionary Server）：</p><ul><li>定义：开源的、使用ANSI C语言编写、遵守BSD协议、支持网络、可基于内存、亦可持久化的日志型、Key-Value数据库。</li><li>值的类型<ul><li>字符串-string<ul><li>最基本的数据类型</li><li>相关命令：<pre><code>set &lt;key&gt; &lt;value&gt;get &lt;key&gt;示例：set tom "cat"get tom         </code></pre></li></ul></li><li>哈希-hash<ul><li>定义： string 类型的 field 和 value 的映射表</li><li>相关命令：<pre><code>hmset &lt;key&gt; &lt;field1&gt; &lt;value1&gt; &lt;field2&gt; &lt;value2&gt;hget &lt;key&gt; &lt;field1&gt;示例：// 设置2个field-value对HMSET runoob field1 "Hello" field2 "World"HGET runoob field1         </code></pre></li></ul></li><li>列表-list<ul><li>定义：简单的字符串列表，可以左插到列表头部，也可以右插到列表尾部。</li><li>相关命令：<pre><code>// lpush-list pushlpush &lt;key&gt; &lt;value&gt;示例：lpush runoob redislpush runoob mongodb         </code></pre></li></ul></li><li>集合-set<ul><li>定义：String类型的无序集合。</li><li>相关命令<pre><code>// sadd-set addsadd &lt;key&gt; &lt;member&gt;示例：sadd runoob redissadd runoob mongodb         </code></pre></li><li>添加一个 string 元素到 key 对应的 set 集合中，成功返回 1，如果元素已经在集合中返回 0。</li><li>集合内元素不允许重复。</li></ul></li><li>有序集合-zset(sorted sets)<ul><li>定义：string类型元素的集合,且不允许重复的成员。</li><li>区别：每个元素都会关联一个double类型的分数，redis正是通过分数来为集合中的成员进行从小到大的排序。</li><li>相关命令：<pre><code>// zadd-zset addzadd &lt;key&gt; &lt;score&gt; &lt;menber&gt;示例：zadd runoob 0 redis         </code></pre></li></ul></li></ul></li><li>Redis运行在内存中但是可以持久化到磁盘，所以在对不同数据集进行高速读写时需要权衡内存。</li></ul></li><li><p>Redis安装：</p><ul><li>redis-server：redis服务程序</li><li>redis-cli：测试客户端</li></ul></li></ol><h3 id="Redis命令篇"><a href="#Redis命令篇" class="headerlink" title="Redis命令篇"></a>Redis命令篇</h3><hr><ol><li><p>启动Redis客户端：</p><ul><li>Redis客户端：redis-cli</li><li>相关命令：<pre><code>// 连接本地的Redis服务redis-cli// 连接远程的Redis服务redis-cli -h &lt;hostname&gt; -p &lt;portname&gt; -p &lt;password&gt;示例：redis-cli -h 127.0.0.1 -p 6379 -a "mypass"   </code></pre></li></ul></li><li><p>Redis事务：</p><ul><li>定义：一次执行多个命令 / 打包的批量执行脚本。</li><li>事务的3个阶段：<ul><li>开始事务<ul><li>命令：<code>multi</code></li><li>附：<code>discard</code>：取消事务</li></ul></li><li>命令入队</li><li>执行事务<ul><li>命令：<code>exec</code></li></ul></li></ul></li><li>Redis事务的执行不具备原子性，中间某条指令的失败不会导致前面已做指令的回滚，也不会造成后续的指令不做。。</li></ul></li><li><p>Redis脚本：</p><pre><code>eval &lt;script&gt; &lt;numkeys&gt; &lt;key&gt; [&lt;key&gt;...] &lt;arg&gt; [&lt;arg&gt;...]示例：EVAL "return {KEYS[1],KEYS[2],ARGV[1],ARGV[2]}" 2 key1 key2 first second   </code></pre><ul><li><p>eval命令参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">script</td><td align="center">脚本代码</td></tr><tr><td align="center">numkeys</td><td align="center">key的数量</td></tr><tr><td align="center">key</td><td align="center">键</td></tr><tr><td align="center">arg</td><td align="center">参数</td></tr></tbody></table></li><li><p>Redis脚本使用 Lua 解释器来执行脚本。</p></li><li><p>Redis 2.6 版本通过内嵌支持 Lua 环境。</p></li></ul></li><li><p>Redis连接：</p><ul><li>相关命令：<pre><code>// 验证密码是否正确auth &lt;password&gt;// 查看Redis服务是否运行ping// 关闭连接quit// 切换到指定序号的数据库select &lt;index&gt;   </code></pre></li></ul></li></ol><h3 id="高级篇"><a href="#高级篇" class="headerlink" title="高级篇"></a>高级篇</h3><hr><ol><li><p>从<a href="https://static.runoob.com/download/jedis-2.9.0.jar">Redis驱动下载页面</a>下载Redis For Java的驱动包。</p></li><li><p>常用API：</p><pre><code>// 连接redis服务Jedis jedis = new Jedis("localhost");// 验证Redis服务密码jedis.auth("123456");// 插入字符串数据jedis.set("key1", "value1");// 查看字符串数据jedis.get("key1");//插入列表数据jedis.lpush("key2", "value2_1");jedis.lpush("key2", "value2_2");//获取列表数据List&lt;String&gt; list = jedis.lrange("key2", 0, 2);   </code></pre></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis, 数据库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MongoDB学习笔记</title>
+      <link href="2020/11/30/mongodb-xue-xi-bi-ji/"/>
+      <url>2020/11/30/mongodb-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MongoDB学习笔记"><a href="#MongoDB学习笔记" class="headerlink" title="MongoDB学习笔记"></a>MongoDB学习笔记</h1><h3 id="概念篇"><a href="#概念篇" class="headerlink" title="概念篇"></a>概念篇</h3><hr><ol><li><p>MongoDB 是由C++语言编写的，是一个基于分布式文件存储的、面向文档存储的开源数据库系统。</p><ul><li>介于<em>关系型数据库</em>与<em>非关系型数据库</em>之间</li><li>更偏向于关系型数据库</li></ul></li><li><p>数据结构由<strong>key/value</strong>组成，类似于JSON结构。</p></li><li><p>MongoDB将数据存放在<code>db目录</code>中。</p><ul><li>这个目录应由手工创建在根目录下。</li></ul></li><li><p>MongoDB不支持多表连接。</p></li><li><p>MongoDB自动将<strong>_id字段</strong>设置为主键。</p></li><li><p>MongoDB的保留数据库：</p><ul><li>admin：从权限的角度来看，这是”root”数据库。要是将一个用户添加到这个数据库，这个用户自动继承所有数据库的权限。</li><li>local：存储本地数据。</li><li>config：保存分片信息</li></ul></li><li><p>MongoDB 的文档不需要设置相同的字段，并且相同的字段不需要相同的数据类型。</p></li><li><p>MongoDB的数据库结构：数据库–&gt;集合（表）–&gt;文档（行）–&gt;字段（列）</p></li><li><p>MongoDB数据类型：</p><table><thead><tr><th align="center">数据类型</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">String</td><td align="center">字符串</td></tr><tr><td align="center">Integer</td><td align="center">整数</td></tr><tr><td align="center">Boolean</td><td align="center">布尔值</td></tr><tr><td align="center">Double</td><td align="center">双精度浮点数</td></tr><tr><td align="center">Array</td><td align="center">数组</td></tr><tr><td align="center">Timestamp</td><td align="center">时间戳</td></tr><tr><td align="center">Date</td><td align="center">日期</td></tr><tr><td align="center">-</td><td align="center">-</td></tr><tr><td align="center">Object</td><td align="center">用于内嵌文档，存储文档对象</td></tr><tr><td align="center">Null</td><td align="center">空值</td></tr><tr><td align="center">Symbol</td><td align="center">符号（=字符串），用于采用特殊符号的语言</td></tr><tr><td align="center">Object ID</td><td align="center">对象ID</td></tr><tr><td align="center">Binary Data</td><td align="center">二进制数据</td></tr><tr><td align="center">Code</td><td align="center">代码，用于存储JavaScript代码</td></tr><tr><td align="center">Regular Expression</td><td align="center">正则表达式</td></tr></tbody></table></li><li><p>Object ID构成方式：</p></li></ol><ul><li>时间戳 + 机器标识码 + 进程PID + 随机数</li><li>如图1所示<br><img src="2020-11-30-MongoDB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/mongodb-1.jpg"><img src="/2020/11/30/mongodb-xue-xi-bi-ji/mongodb-1.jpg" class=""></li></ul><h3 id="CRUD篇"><a href="#CRUD篇" class="headerlink" title="CRUD篇"></a>CRUD篇</h3><hr><ol><li><p>创建数据库：</p><pre><code>use database_name   </code></pre><ul><li>如果数据库不存在，则创建数据库，否则切换到指定数据库。</li><li><code>show dbs</code>：查看所有具有数据的数据库（空数据库除外）</li><li><code>db</code>：查看当前数据库</li><li>MongoDB 中默认的数据库为 test，如果你没有创建新的数据库，集合将存放在 test 数据库中。</li></ul></li><li><p>删除数据库：</p><pre><code>db.dropDatabase()   </code></pre><ul><li>删除当前数据库，默认为test。</li></ul></li><li><p>删除集合（表）：</p><pre><code>// collection为集合名db.collection.drop()   </code></pre><ul><li>删除当前数据库下的指定集合</li><li>返回值：<ul><li>成功删除集合，返回true</li><li>删除失败，返回false</li></ul></li></ul></li><li><p>创建集合（表）：</p><pre><code>// name：集合名，如："table_01"db.createCollection(name, options)   </code></pre><ul><li><p>在当前数据库中创建name表</p></li><li><p><code>show tables</code>或<code>show collections</code>: 查看当前数据库中的所有集合</p></li><li><p>options参数：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">capped</td><td align="center">布尔</td><td align="center">如果为 true，则创建固定集合（固定大小的集合）</td></tr><tr><td align="center">size</td><td align="center">数值</td><td align="center">为固定集合指定一个最大值</td></tr><tr><td align="center">max</td><td align="center">数值</td><td align="center">指定固定集合中包含文档的最大数量</td></tr></tbody></table></li><li><p>在 MongoDB 中，你不需要创建集合。当你插入一些文档时，MongoDB 会自动创建集合。</p></li></ul></li><li><p>插入文档：</p><ul><li><p>文档的数据结构：BSON（Binary JSON，一种类似 JSON 的二进制形式的存储格式）</p><pre><code>// collection: 集合名；document：数据db.collection.insert(document)// save()在新版本中已废弃db.collection.save(document)/* * 3.2版本新增的方法*/// 向集合中插入1个文档db.collection.insertOne(   &lt;document&gt;,   {      writeConcern: &lt;document&gt;   })// 向集合中插入1个 / 多个文档 db.collection.insertMany(   [ &lt;document 1&gt; , &lt;document 2&gt;, ... ],   {      writeConcern: &lt;document&gt;,      ordered: &lt;boolean&gt;   })   </code></pre></li><li><p>仅仅是插入数据，若插入数据的主键存在，则抛出org.springframework.dao.<strong>DuplicateKeyException</strong></p></li><li><p>3.2版本新增方法参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">document</td><td align="center">JSON</td><td align="center">要插入的文档</td></tr><tr><td align="center">writeConcern</td><td align="center">Integer</td><td align="center">写入策略，默认为 1，即要求确认写操作，0 是不要求。</td></tr><tr><td align="center">ordered</td><td align="center">Boolean</td><td align="center">指定是否按顺序写入，默认 true，按顺序写入。</td></tr></tbody></table></li><li><p>主键ID自动生成，无需插入。</p></li><li><p>插入文档时，如果集合不存在，则MongoDB会自动创建集合并把文档插入其中。</p></li><li><p>定义变量：</p><pre><code>document = ({   title: 'MongoDB 教程',   description: 'MongoDB 是一个 Nosql 数据库'})   </code></pre></li></ul></li><li><p>更新文档：</p><pre><code>/* 方法一 */db.collection.update(   &lt;query&gt;,   &lt;update&gt;,   {      upset: &lt;Boolean&gt;,      multi: &lt;Boolean&gt;,      writeConcern: &lt;document&gt;   })示例：db.col.update(   {'title':'MongoDB 教程'},   {$set:{'title':'MongoDB'}})/* 方法二 */db.collection.save(   &lt;document&gt;,    {      writeConcern: &lt;document&gt;   })示例：db.col.save({   "_id" : ObjectId("56064f89ade2f21f36b03136"),   "title" : "MongoDB",   "description" : "MongoDB 是一个 Nosql 数据库",   "by" : "Runoob",   "url" : "http://www.runoob.com",   "tags" : [            "mongodb",            "NoSQL"   ],   "likes" : 110})   </code></pre><ul><li><p>update()方法参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">query</td><td align="center">语句</td><td align="center">是</td><td align="center">update的查询条件，类似sql update查询内where子句</td></tr><tr><td align="center">update</td><td align="center">语句</td><td align="center">是</td><td align="center">update的对象和一些更新的操作符（如$,$inc…）等，也可以理解为sql update查询内set子句</td></tr><tr><td align="center">upset</td><td align="center">Boolean</td><td align="center">否</td><td align="center">upset（= update + insert）如果不存在update的记录，是否插入objNew,true为插入，默认是false，不插入</td></tr><tr><td align="center">multi</td><td align="center">Boolean</td><td align="center">否</td><td align="center">默认是false,只更新找到的第一条记录，如果这个参数为true,就把按条件查出来多条记录全部更新</td></tr><tr><td align="center">writeConcern</td><td align="center">Integer</td><td align="center">否</td><td align="center">抛出异常的级别</td></tr></tbody></table></li></ul></li><li><p>删除文档：</p><pre><code>db.collection.remove(   &lt;query&gt;,   {      justOne: &lt;boolean&gt;,      writeConcern: &lt;document&gt;   })// 删除集合里的所有文档db.collection.remove({})   </code></pre><ul><li><p>remove()方法的参数：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">query</td><td align="center">JSON</td><td align="center">否</td><td align="center">删除的文档条件</td></tr><tr><td align="center">justOne</td><td align="center">Boolean</td><td align="center">否</td><td align="center">如果设为 true 或 1，则只删除一个文档，如果不设置该参数或使用默认值 false，则删除所有匹配条件的文档</td></tr><tr><td align="center">writeConcern</td><td align="center">Integer</td><td align="center">否</td><td align="center">抛出异常的级别</td></tr></tbody></table></li><li><p>删除文档前，先查询文档，避免误删除。</p></li></ul></li><li><p>查询文档：</p><pre><code>/* 方法一： */db.collection.find(&lt;query&gt;, &lt;projection&gt;)/* 方法二： */db.collection.findOne()示例：db.collection.find({      title: "Java教程"   }, {      title: 1,      _id: 0   })   </code></pre><ul><li><p>find()方法的参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">query</td><td align="center">JSON</td><td align="center">否</td><td align="center">使用查询操作符指定查询条件</td></tr><tr><td align="center">projection</td><td align="center">JSON</td><td align="center">否</td><td align="center">使用投影操作符指定返回的键</td></tr></tbody></table></li><li><p>find()方法以非结构化的方式显示所有文档</p></li><li><p>pretty()方法以格式化的方式显示所有文档</p><ul><li>使用方法：<pre><code>db.collection.find().pretty()      </code></pre></li></ul></li><li><p>MongoDB的条件语句查询：</p><table><thead><tr><th align="center">操作</th><th align="center">格式</th><th align="center">范例</th><th align="center">RDBMS语句</th></tr></thead><tbody><tr><td align="center">等于</td><td align="center">{<key>:<value>}</value></key></td><td align="center">db.col.find({“by”:”菜鸟教程”}).pretty()</td><td align="center">where by = ‘菜鸟教程’</td></tr><tr><td align="center">小于</td><td align="center">{<key>:{$lt:<value>}}</value></key></td><td align="center">db.col.find({“likes”:{$lt:50}}).pretty()</td><td align="center">where likes &lt; 50</td></tr><tr><td align="center">小于或等于</td><td align="center">{<key>:{$lte:<value>}}</value></key></td><td align="center">db.col.find({“likes”:{$lte:50}}).pretty()</td><td align="center">where likes &lt;= 50</td></tr><tr><td align="center">大于</td><td align="center">{<key>:{$gt:<value>}}</value></key></td><td align="center">db.col.find({“likes”:{$gt:50}}).pretty()</td><td align="center">where likes &gt; 50</td></tr><tr><td align="center">大于或等于</td><td align="center">{<key>:{$gte:<value>}}</value></key></td><td align="center">db.col.find({“likes”:{$gte:50}}).pretty()</td><td align="center">where likes &gt;= 50</td></tr><tr><td align="center">不等于</td><td align="center">{<key>:{$ne:<value>}}</value></key></td><td align="center">db.col.find({“likes”:{$ne:50}}).pretty()</td><td align="center">where likes != 50</td></tr></tbody></table></li><li><p>And条件：</p><ul><li>find()方法中的<query>传入多个键，每个键以<strong>逗号</strong>隔开。</query></li><li>使用方法：<pre><code>db.col.find({key1:value1, key2:value2}).pretty()示例：db.col.find({"by":"菜鸟教程", "title":"MongoDB 教程"}).pretty()      </code></pre></li></ul></li><li><p>Or条件：</p><ul><li>find()方法中的<query>使用<code>$or</code>关键字作为键</query></li><li>使用方法：<pre><code>db.collection.find(   {      $or: [         {key1: value1},         {key2: value2}      ]   })示例：db.col.find(   {      $or:[         {"by":"菜鸟教程"},         {"title": "MongoDB 教程"}      ]   }).pretty()      </code></pre></li></ul></li></ul></li><li><p><code>$type</code>：用来匹配集合中字段的数据类型。</p><ul><li>使用方法：<pre><code>// 用来匹配集合中title字段类型为String的文档db.collection.find({   "title": {$type: "string"}})   </code></pre></li></ul></li><li><p>limit()方法：</p><pre><code>// 读取集合中指定数量的记录db.collection.find().limit(&lt;number&gt;)示例：db.col.find({},{"title":1, _id:0}).limit(2)   </code></pre></li></ol><ul><li><p>limit()方法参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">number</td><td align="center">Integer</td><td align="center">是</td><td align="center">读取的记录条数</td></tr></tbody></table></li></ul><ol start="11"><li>skip()方法：<pre><code>// 跳过集合中指定数量的记录db.collection.find().limit(&lt;number&gt;).skip(&lt;number&gt;)示例：db.col.find({},{"title":1,_id:0}).limit(1).skip(1)   </code></pre></li></ol><ul><li>skip()方法的默认参数为<strong>0</strong>。</li></ul><ol start="12"><li>sort()方法：<pre><code>// 根据指定的字段对数据进行排序db.collection.find().sort({   key: 1 / -1})示例：db.col.find(      {}, {         title: 1,         _id: 0      }   ).sort({         likes: -1      }   )   </code></pre></li></ol><ul><li><p>sort()方法的参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">key</td><td align="center">String</td><td align="center">是</td><td align="center">要排序的字段名</td></tr><tr><td align="center">value</td><td align="center">Integer</td><td align="center">是</td><td align="center">排序方式（1：升序；-1：降序）</td></tr></tbody></table></li><li><p>排序方式如图2所示。<br><img src="2020-11-30-MongoDB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/mongodb-2.jpg"></p><img src="/2020/11/30/mongodb-xue-xi-bi-ji/mongodb-2.jpg" class=""></li></ul><ol start="13"><li>索引：</li></ol><ul><li><p>定义：对数据库表中的一列 / 多列的值进行排序的一种结构。</p><pre><code>// 用于在指定的列上创建索引db.collection.createIndex(&lt;keys&gt;, &lt;options&gt;)示例：db.collection.createIndex({   "title": 1,    "like": -1}, {   background: true})   </code></pre></li><li><p>createIndex()方法的参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">keys</td><td align="center">JSON</td><td align="center">是</td><td align="center">要创建索引的字段（1 为指定按升序创建索引，-1为按降序来创建索引）</td></tr><tr><td align="center">-options</td><td align="center">JSON</td><td align="center">否</td><td align="center">可选参数</td></tr><tr><td align="center">background</td><td align="center">Boolean</td><td align="center">否</td><td align="center">指定以后台方式创建索引，默认为false</td></tr><tr><td align="center">unique</td><td align="center">Boolean</td><td align="center">否</td><td align="center">指定是否创建唯一索引，默认为false</td></tr><tr><td align="center">name</td><td align="center">String</td><td align="center">否</td><td align="center">索引的名称，默认为索引对应的字段名 + 排序顺序</td></tr><tr><td align="center">sparse</td><td align="center">Boolean</td><td align="center">否</td><td align="center">对文档中不存在的字段数据不启用索引（如果启用，则在索引字段中不会查询出没有包含对应字段的文档），默认为false</td></tr><tr><td align="center">expireAfterSeconds</td><td align="center">Integer</td><td align="center">否</td><td align="center">集合的生存时间</td></tr><tr><td align="center">v</td><td align="center"></td><td align="center">否</td><td align="center">索引的版本号</td></tr><tr><td align="center">weights</td><td align="center">JSON</td><td align="center">否</td><td align="center">索引的权重值</td></tr><tr><td align="center">(数值在 1 到 99,999 之间)，表示该索引相对于其他索引字段的得分权</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">default_language</td><td align="center">String</td><td align="center">否</td><td align="center">决定了停用词及词干和词器的规则的列表</td></tr><tr><td align="center">language_override</td><td align="center">String</td><td align="center">否</td><td align="center">指定了包含在文档中的字段名</td></tr></tbody></table></li></ul><ol start="14"><li>聚合：<pre><code>// 用于计算数据，并返回计算后的结果（平均值、求和）db.collection.aggregate(&lt;aggregate_operation&gt;)   </code></pre></li></ol><ul><li><p>聚合表达式：</p><table><thead><tr><th align="center">表达式</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">$sum</td><td align="center">求和</td></tr><tr><td align="center">$avg</td><td align="center">求平均值</td></tr><tr><td align="center">$min</td><td align="center">求最小值</td></tr><tr><td align="center">$max</td><td align="center">求最大值</td></tr><tr><td align="center">-</td><td align="center">-</td></tr><tr><td align="center">$push</td><td align="center">在结果文档中，插入值到一个数组中</td></tr><tr><td align="center">$addToSet</td><td align="center">在结果文档中，插入值到一个数组中，但不创建副本</td></tr><tr><td align="center">-</td><td align="center">-</td></tr><tr><td align="center">$first</td><td align="center">获取第1个文档的数据</td></tr><tr><td align="center">$last</td><td align="center">获取最后1个文档的数据</td></tr></tbody></table></li><li><p>聚合管道：</p><ul><li><p>将MongoDB文档在一个管道处理完毕后将结果传递给下一个管道处理。</p></li><li><p>常用操作：</p><table><thead><tr><th align="center">操作名称</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">$project</td><td align="center">修改输入文档的结构</td></tr><tr><td align="center">$match</td><td align="center">过滤数据，只输出符合条件的文档</td></tr><tr><td align="center">$limit</td><td align="center">限制聚合管道返回的文档数</td></tr><tr><td align="center">$skip</td><td align="center">跳过指定数量的文档，并返回剩下的文档</td></tr><tr><td align="center">$unwind</td><td align="center">拆分文档中的数组类型字段</td></tr><tr><td align="center">$group</td><td align="center">文档分组</td></tr><tr><td align="center">$sort</td><td align="center">文档排序</td></tr><tr><td align="center">$geoNear</td><td align="center">输出接近某一地理位置的有序文档</td></tr></tbody></table></li><li><p>示例：</p><pre><code>/* $project示例 */db.collection.aggregate({   $project: {      _id: 0,  // 输出的文档中不包含_id字段，默认包含      title: 1,      author: 1   }})/* $match示例 */// 获取70 &lt; score &lt;= 90的数据，并统计数量db.collection.aggregate([   {      $match: {score: {$gt: 70}, {$lte: 90}}   }, {      $project: {         _id: 0,         count: {$sum: 1}      }   }]);      </code></pre></li></ul></li></ul><h3 id="高级篇"><a href="#高级篇" class="headerlink" title="高级篇"></a>高级篇</h3><hr><ol><li><p>数据备份：</p><pre><code>// 导出MongoDB所有数据到指定目录中mongodump -h(/ --host) &lt;dbhost&gt; -p(/ --port) &lt;portnumber&gt; -d(/ --db) &lt;dbname&gt; -o(/ --out) &lt;backdirectory&gt; -c(/ --collection) &lt;collection&gt;   </code></pre><ul><li><p>mongodump命令参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">dbhost</td><td align="center">MongDB所在服务器地址，例如：127.0.0.1</td></tr><tr><td align="center">portnumber</td><td align="center">端口号</td></tr><tr><td align="center">dbname</td><td align="center">需要备份的数据库实例名称</td></tr><tr><td align="center">backdirectory</td><td align="center">备份的数据存放位置，该目录需要提前建立</td></tr><tr><td align="center">collection</td><td align="center">需要备份的集合名称</td></tr></tbody></table></li></ul></li><li><p>数据恢复：</p><pre><code>// 恢复备份的数据mongorestore -h(/ --host) &lt;hostname&gt;&lt;:port&gt; -d(/ --db) &lt;dbname&gt; &lt;path&gt; --drop    </code></pre><ul><li>mongorestore命令参数说明：<table><thead><tr><th align="center">参数</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">–drop</td><td align="center">先删除当前数据，然后恢复备份的数据</td></tr><tr><td align="center">path</td><td align="center">设置备份数据所在位置</td></tr></tbody></table></li></ul></li><li><p>MongoDB监控：</p><ul><li><p><code>mongostat命令</code>：自带的状态检测工具，间隔固定时间获取mongodb的当前运行状态。</p><ul><li>使用方法：<pre><code>mongostat      </code></pre></li></ul></li><li><p><code>mongotop命令</code>：用来跟踪一个MongoDB的实例，查看哪些时间大量花费在读取和写入数据</p><ul><li><p>使用方法：</p><pre><code>mongotop &lt;sleeptime&gt; --locks      </code></pre></li><li><p>mongotop命令参数说明：</p><table><thead><tr><th align="center">参数</th><th align="center">类型</th><th align="center">必选</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center">sleeptime</td><td align="center">Integer</td><td align="center">否</td><td align="center">等待的时间长度，以秒为单位</td></tr><tr><td align="center">locks</td><td align="center">-</td><td align="center">否</td><td align="center">报告数据库中每个锁的使用</td></tr></tbody></table></li></ul></li></ul></li><li><p>Java API：</p><ul><li>前往<a href="https://mongodb.github.io/mongo-java-driver/">MongoDB驱动下载页面</a>下载驱动jar包<code>mongo-java-driver-3.2.2.jar</code></li><li>使用方法：<pre><code>// 连接MongoDB服务MongoClient mongoClient = new MongoClient("localhost", 27017);// 连接数据库-getDatabase()MongoDatabase database = mongoClient.getDatabase("test");// 创建集合（表）-createCollection()database.createCollection("test");// 获取集合-getCollection()MongeCollection&lt;Document&gt; collection = database.getCollection("test");// 插入文档-insertMany()/** * 1. 创建key-value格式的文档org.bson.Document* 2. 创建文档集合List&lt;Document&gt;* 3. 将文档插入到集合中 */Document document = new Document("title",  "MongoDB").append("author", "hao3")List&lt;Document&gt; documentList = new ArrayList&lt;&gt;();documentList.add(document);collection.insertMany(documentList);// 更新文档-updateMany()/*  将文档中likes=100的文档修改为likes=200 */collection.updateMany(   Filters.eq("likes", 100),    new Document(      "$set",       new Document(         "likes",          200      )   ));// 删除文档-remove(), deleteOne(). deleteMany()/** * 1. 先用com.mongodb.DBCollection.findOne()方法获取第一个文档。* 2. 再使用remove()方法删除 *//* 删除符合条件的第一个文档 */collection.deleteOne(Filters.eq("likes", 200));  /* 删除所有符合条件的文档 */collection.deleteMany (Filters.eq("likes", 200)); //检索文档-find()/** * 1. 获取迭代器FindIterable&lt;Document&gt;* 2. 获取游标MongoCursor&lt;Document&gt;* 3. 通过游标遍历检索出的文档集合 */FindIterable&lt;Document&gt; findIterable = collection.find();  MongoCursor&lt;Document&gt; mongoCursor = findIterable.iterator();  while(mongoCursor.hasNext()){     System.out.println(mongoCursor.next());  }     </code></pre></li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MongoDB, 数据库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JSON学习笔记</title>
+      <link href="2020/11/27/json-xue-xi-bi-ji/"/>
+      <url>2020/11/27/json-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JSON学习笔记"><a href="#JSON学习笔记" class="headerlink" title="JSON学习笔记"></a>JSON学习笔记</h1><h3 id="Jackson篇"><a href="#Jackson篇" class="headerlink" title="Jackson篇"></a>Jackson篇</h3><hr><ol><li><p>Jackson是目前使用非常广泛的JSON生成和解析工具。</p></li><li><p>Jackson由3个模块组成：</p><ul><li>Jaskson-core：核心包，包括JSON解析器生成器</li><li>Jackson-annotations：注解包，提供处理数据的注解</li><li>Jackson-databind：数据绑定包，将数据与Java对象绑定<br>【注】Jackson-databind依赖于core、annotations包，一般引入databind包即可。</li></ul></li><li><p>ObjectMapper是Jackson的<strong>核心类</strong>，用来完成JSON的读写操作。</p><ul><li><strong>writeValueAsString()</strong>: 将Java对象 –&gt; JSON字符串</li><li><strong>readValue()</strong>: 将JSON字符串 –&gt; Java对象</li></ul></li><li><p>如果是Spring Boot项目，ObjectMapper已经存在于Spring容器中，可以通过`<strong>@Autowired</strong>注入ObjectMapper对象。</p></li><li><p>Java对象的成员变量的名称和值都会成为JSON中的<strong>属性名</strong>和<strong>属性值</strong>。</p><ul><li><p>(<strong>强烈推荐！</strong>)可以通过将`<strong>@JsonProperty</strong>注解在Java对象的成员变量上修改转换JSON后的属性名称，如图1所示。<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-1.jpg" alt="'图1'"></p><img src="/2020/11/27/json-xue-xi-bi-ji/json-1.jpg" class=""></li><li><p>如果不需要将Java对象的某个成员变量转换为JSON，则可以在成员变量上加上`<strong>@JsonIgnore</strong>注解，如图2所示。<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-2.jpg"></p><img src="/2020/11/27/json-xue-xi-bi-ji/json-2.jpg" class=""><p>或者使用`<strong>@JsonIgnoreProperties</strong>注解，将其注解在Java类上，最终实现效果相同，如图3所示。<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-3.jpg"></p><img src="/2020/11/27/json-xue-xi-bi-ji/json-3.jpg" class=""></li><li><p>如果在Java对象中使用private成员变量，并用Getter/Setter方法操作成员变量，则JSON将Getter方法确定JSON属性名，如图4所示。<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-4.jpg"></p><img src="/2020/11/27/json-xue-xi-bi-ji/json-4.jpg" class=""><ul><li>既然Jackson会根据Getter方法确定JSON属性名，那么用来JSON属性名称的`<strong>@JsonProperty</strong>注解同样可以标注在Getter方法上</li></ul></li></ul></li><li><p>Jackson按照以下顺序确定JSON属性名：</p><ul><li>public的成员变量</li><li>public的Getter方法（在成员变量设置为private的情况下）</li><li>所有作用域的Setter方法</li></ul></li><li><p>【<strong>强烈推荐</strong>】只根据成员变量确定JSON属性名，并忽略掉所有的Getter / Setter方法的自动检测，方法如下：修改ObjectMapper对象的属性，如图所示<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-5.jpg"></p><img src="/2020/11/27/json-xue-xi-bi-ji/json-5.jpg" class=""><pre><code>objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.NONE);objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);</code></pre><ul><li>如果是Spring Boot项目，则可以在application.properties配置文件中添加如下配置：<pre><code>spring.jackson.visibility.all = nonespring,jackson.visibility.field = any</code></pre>如图6所示。<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-6.jpg"><img src="/2020/11/27/json-xue-xi-bi-ji/json-6.jpg" class=""></li></ul></li><li><p>自定义JSON对象：</p><ul><li>使用ObjectMapper对象的**createObjectNode()**方法，创建一个新的对象。</li><li>使用ObjectNode对象的**put() / putArray()**方法添加数据。</li><li>在JSON中添加数组时，实际上是往ArrayNode对象中添加数组内容，并保存到JSON对象中。</li><li>具体使用情况如图7所示<br><img src="2020-11-27-JSON%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/json-7.jpg"><img src="/2020/11/27/json-xue-xi-bi-ji/json-7.jpg" class=""></li></ul></li><li><p>解析JSON对象（Java对象中缺失对应的属性）</p><ul><li><p>类级别忽略未知JSON属性：<br>使用`**@JsonIgnoreProperties(ignoreUnknown = true)**注解声明在类上</p><pre><code>@JsonIgnoreProperties(ignoreUnknown = true)public class User {    // ...}    </code></pre></li><li><p>全局忽略未知JSON属性：<br>配置ObjectMapper对象的属性，代码如下：</p><pre><code>// 配置忽略未知属性mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);   </code></pre></li></ul></li><li><p>解析JSON对象（不完整的JSON对象）</p></li></ol><ul><li>直接使用**readValue()**方法读取JSON对象。</li></ul><h3 id="Fastjson篇"><a href="#Fastjson篇" class="headerlink" title="Fastjson篇"></a>Fastjson篇</h3><hr><ol><li><p>Fastjson是Alibaba开发的用于实现JSON对象与Java对象之间相互转换的包。</p></li><li><p>Fastjson包中有3个类：</p><ul><li>JSON</li><li>JSONArray：继承自JSON，实现了List接口，代表JSON对象数组，其存储这一个个的JSON对象。</li><li>JSONObject：继承自JSON，实现了Map接口，代表着JSON对象，所有数据都是以<strong>“键：值”</strong>的方式出现。</li></ul></li><li><p>常用方法：</p><ul><li>**parseObject()**：将JSON字符串 –&gt; JSONObject</li><li>**toJSONString()**：将JSONObject / JSONArray –&gt; JSON字符串</li><li><strong>parseArray()</strong>: 将JSON字符串数组 –&gt; JSONArray</li></ul></li></ol><blockquote><p>参考文章：<a href="https://zhuanlan.zhihu.com/p/65224789">使用Jackson生成和解析JSON</a>、<a href="https://zhuanlan.zhihu.com/p/138794977">Jackson忽略未知的JSON属性</a>、<a href="https://zhuanlan.zhihu.com/p/62763428">JSON格式及FastJson使用详解</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JSON </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中医与保健课程笔记</title>
+      <link href="2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/"/>
+      <url>2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2020年中医与保健课程学习笔记"><a href="#2020年中医与保健课程学习笔记" class="headerlink" title="2020年中医与保健课程学习笔记"></a>2020年中医与保健课程学习笔记</h1><hr><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_001.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_001.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_002.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_002.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_003.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_003.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_004.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_004.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_005.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_005.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_006.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_006.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_007.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_007.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_008.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_008.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_009.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_009.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_010.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_010.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_011.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_011.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_012.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_012.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_013.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_013.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_014.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_014.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_015.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_015.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_016.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_016.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_017.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_017.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_018.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_018.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_019.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_019.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_020.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_020.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_021.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_021.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_022.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_022.jpg"></p><img src="/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/zy_023.jpg" class=""><p><img src="2020-4-15-%E4%B8%AD%E5%8C%BB%E4%B8%8E%E4%BF%9D%E5%81%A5%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/zy_023.jpg"></p><blockquote><p>时间：2020-4-15<br>地点：成都信息工程大学<br>课程名：中医与保健<br>主讲教师：韩楠</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中医 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Word学习笔记</title>
+      <link href="2020/02/05/word-xue-xi-bi-ji/"/>
+      <url>2020/02/05/word-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Word学习笔记"><a href="#Word学习笔记" class="headerlink" title="Word学习笔记"></a>Word学习笔记</h1><blockquote><p>这是之前我学习Word时的笔记，写在这里，便于以后查阅。</p><footer><strong>Zbs</strong></footer></blockquote><h3 id="快捷键篇"><a href="#快捷键篇" class="headerlink" title="快捷键篇"></a>快捷键篇</h3><hr><ol><li><img src="/2020/02/05/word-xue-xi-bi-ji/w1.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w1.PNG"></li><li><strong>Shift + F3</strong>：大小写切换<img src="/2020/02/05/word-xue-xi-bi-ji/w2.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w2.PNG"></li><li><img src="/2020/02/05/word-xue-xi-bi-ji/w3.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w3.PNG"></li></ol><h3 id="选择文本篇"><a href="#选择文本篇" class="headerlink" title="选择文本篇"></a>选择文本篇</h3><hr><ol><li>选择文本的方法：<img src="/2020/02/05/word-xue-xi-bi-ji/w4.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w4.PNG"></li></ol><h3 id="段落间距篇"><a href="#段落间距篇" class="headerlink" title="段落间距篇"></a>段落间距篇</h3><hr><ol><li><strong>标尺</strong>的作用：<img src="/2020/02/05/word-xue-xi-bi-ji/w5.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w5.PNG"><img src="/2020/02/05/word-xue-xi-bi-ji/w6.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w6.PNG"><img src="/2020/02/05/word-xue-xi-bi-ji/w7.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w7.PNG"></li><li>缩进方法总结<ul><li>空格键</li><li>缩进工具</li><li>格式刷 / F4<img src="/2020/02/05/word-xue-xi-bi-ji/w8.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w8.PNG"></li></ul></li></ol><h3 id="替换篇"><a href="#替换篇" class="headerlink" title="替换篇"></a>替换篇</h3><hr><ol><li><strong>通配符</strong>的使用：<img src="/2020/02/05/word-xue-xi-bi-ji/w9.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w9.PNG"><img src="/2020/02/05/word-xue-xi-bi-ji/w10.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w10.PNG"></li><li>三种空白：<ul><li>全角</li><li>半角</li><li>制表<img src="/2020/02/05/word-xue-xi-bi-ji/w11.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w11.PNG"></li></ul></li><li>换行分两种：手动强制换行（<strong>Shift + Enter</strong>）和分段</li><li>图片设置居中<img src="/2020/02/05/word-xue-xi-bi-ji/w12.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w12.PNG"><img src="/2020/02/05/word-xue-xi-bi-ji/w13.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w13.PNG"><img src="/2020/02/05/word-xue-xi-bi-ji/w14.PNG" class=""><img src="2020-2-5-Word%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/w14.PNG"></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Word </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>含金量高的证书</title>
+      <link href="2020/01/21/han-jin-liang-gao-de-zheng-shu-hui-zong/"/>
+      <url>2020/01/21/han-jin-liang-gao-de-zheng-shu-hui-zong/</url>
+      
+        <content type="html"><![CDATA[<h1 id="含金量高的证书"><a href="#含金量高的证书" class="headerlink" title="含金量高的证书"></a>含金量高的证书</h1><hr><blockquote><p>这是之前我目前看到的含金量高的证书，写在这里，便于以后查阅。</p><footer><strong>Clement-阿五</strong></footer></blockquote><ol><li>注册会计师证 CPA<ul><li>适用范围：在大中型企业招聘主管会计、财务经理、财务总监、总会计师等职位，大多都需要持有注册会计师证书。</li><li>报名条件：具有高等专科以上学校毕业学历，或者具有会计或者相关专业中级以上技术职称。</li><li>高薪理由：CPA是我国财会界<strong>最高等级</strong>的证书，也是官方唯一盖章认证的有“签字权”的证书。</li></ul></li><li>法律职业资格证书<ul><li>报考条件：高等学校法律专业本科毕业，或者高等学校非法律专业本科毕业，并具有法律专业知识。</li></ul></li><li>特许公认会计师 ACCA<ul><li>报名条件：年满16周岁，即可。</li></ul></li><li>特许金融分析师 CFA<ul><li>报名条件：要求考生对金融知识有全面而深刻掌握并具备四年相关工作经验。</li></ul></li><li>中国精算师证书<ul><li>报名条件：测试分为<strong>准精算师</strong>和<strong>精算师</strong>两个层级。报考准精算师需要具有<em>本科</em>以上学历，申请精算师需要具备中国准精算师资格等要求。</li></ul></li><li>执业医师证书</li><li>教师资格证书</li><li>企业人力资源师<ul><li>报考条件：凡具有一定外语水平的人员，不分年龄、学历、资历和身份，均可以报名参加相应语种二、三级的考试。</li></ul></li><li>心理咨询师<ul><li>报考条件：心理咨询师分为一二三级，报考标准条件不同。一般要求具有心理学、教育学、医学专业的教育背景。</li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 证书 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>WampServer3.0安装步骤</title>
+      <link href="2020/01/14/wampserver3-0-an-zhuang-bu-zou/"/>
+      <url>2020/01/14/wampserver3-0-an-zhuang-bu-zou/</url>
+      
+        <content type="html"><![CDATA[<h1 id="WampServer3-0安装步骤"><a href="#WampServer3-0安装步骤" class="headerlink" title="WampServer3.0安装步骤"></a>WampServer3.0安装步骤</h1><hr><blockquote><p>这是之前我安装并配置WampServer的步骤，写在这里，便于以后查阅。</p><footer><strong>Clement-阿五</strong></footer></blockquote><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><hr><ol><li>从<a href="https://dl.pconline.com.cn/download/52877-1.html">WampServer下载页面</a>上下载安装包</li><li>不断单击下一步，直至完成。<ul><li>中间会弹出选择浏览器和文本编辑器的弹框，直接点击<strong>打开</strong>即可</li></ul></li></ol><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><hr><ol><li><strong>修改端口</strong>：直接右击WampServer图标，点击<code>tools -&gt; Apache port -&gt; use a port other than 80</code>, 如图所示<img src="/2020/01/14/wampserver3-0-an-zhuang-bu-zou/w3.png" class=""><img src="2020-1-14-WampServer3-0%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4/w3.png"></li><li><strong>修改默认浏览器</strong>：在WampServer安装目录下，找到<code>wampmanager.conf</code>配置文件，使用文本编辑器打开，修改<strong>navigator</strong>的值为edge浏览器的位置，如图所示<img src="/2020/01/14/wampserver3-0-an-zhuang-bu-zou/w1.PNG" class=""><img src="2020-1-14-WampServer3-0%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4/w1.PNG"><img src="/2020/01/14/wampserver3-0-an-zhuang-bu-zou/w2.PNG" class=""><img src="2020-1-14-WampServer3-0%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4/w2.PNG"></li></ol><h3 id="编译器"><a href="#编译器" class="headerlink" title="编译器"></a>编译器</h3><hr><ol><li>从<a href="https://www.eclipse.org/pdt/#download">eclipse下载页面</a>下载支持PHP的eclipse版本</li><li>打开eclipse，点击<code>window -&gt; preference -&gt; PHP -&gt; installed PHPs</code>, 设置PHP的执行器为WampServer自带的PHP执行器，如图所示<img src="/2020/01/14/wampserver3-0-an-zhuang-bu-zou/w5.png" class=""><img src="2020-1-14-WampServer3-0%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4/w5.png"><img src="/2020/01/14/wampserver3-0-an-zhuang-bu-zou/w4.png" class=""><img src="2020-1-14-WampServer3-0%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4/w4.png"></li></ol><blockquote><p>参考文章：<a href="https://blog.csdn.net/weixin_43231021/article/details/88369849">wampserver如何配置默认浏览器、端口号、虚拟机</a> ; <a href="https://dl.pconline.com.cn/download/52877-1.html">WampServer下载页面</a> ; <a href="https://www.eclipse.org/pdt/#download">eclipse下载页面</a> ; <a href="https://www.cnblogs.com/dgwblog/p/9037572.html#autoid-0-0-0">eclipse for php 开发环境配置</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PHP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>毕业设计指导讲座笔记</title>
+      <link href="2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/"/>
+      <url>2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="毕业设计指导讲座笔记"><a href="#毕业设计指导讲座笔记" class="headerlink" title="毕业设计指导讲座笔记"></a>毕业设计指导讲座笔记</h1><h3 id="毕业论文概述篇"><a href="#毕业论文概述篇" class="headerlink" title="毕业论文概述篇"></a>毕业论文概述篇</h3><hr><blockquote><p>这是之前我参加学院组织的毕业设计讲座时的感悟与思考，写在这里，便于以后查阅。</p><footer><strong>Clement-阿五</strong></footer></blockquote><ol><li>毕业论文的要求<ul><li>采用<strong>学术语言</strong>撰写，也就是使用<strong>专业词汇</strong><ul><li>学术语言定义，如图<img src="/2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/essay01.png" class=""><img src="2020-1-11-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/essay01.png"></li></ul></li><li>如今注重<strong>非功能性需求</strong>，例如：算的快</li><li>毕业论文有以下两方面的价值<ul><li>学术价值<ul><li>如何体现？————基本的增删改查 + Data Analyst / Artificial Intelligence</li></ul></li><li>实用价值  —— 本科阶段侧重于实用价值</li></ul></li></ul></li><li>毕业论文的步骤：<ol><li>你想做什么？</li><li>为什么要做？</li><li>前人怎么做的？你的评价是什么？给你的启示又是什么？ <ul><li>1和2作为论文的<strong>引言</strong></li></ul></li><li>具体内容是什么？目的是什么？预期结果是什么？</li><li>具体实施方案是什么？</li><li>进一步分析论证 </li><li>总结</li></ol></li><li>毕业论文总体框架，如图所示<img src="/2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/essay03.png" class=""><img src="2020-1-11-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/essay03.png"></li><li>论文最后的结果是解决<strong>业务需求中提出的问题</strong>，而不仅仅是完成功能</li><li>复杂的工程问题，一定要深入工程原理，其具有6要素，如图所示<img src="/2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/essay02.jpg" class=""><br><img src="2020-1-11-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/essay02.jpg"></li><li><strong>信息系统</strong>是基于现实问题的工程技术的解</li><li>论文的引言一定要注重<strong>必要性</strong><ul><li>内容包括：论文的目的、内容和贡献</li></ul></li><li>在谈研究意义和社会目标时，一定要从<strong>整体上</strong>认识，与社会相关联</li><li>毕业设计想解决的问题一定是<strong>关键问题</strong></li><li>设计的区分</li></ol><ul><li>概要设计注重<strong>广</strong></li><li>详细设计注重<strong>深</strong></li></ul><ol start="11"><li>系统开发完成后的测试，应包括：</li></ol><ul><li>性能测试</li><li>功能测试</li></ul><ol start="12"><li>毕业论文展现的是软件开发中<strong>最精彩的部分</strong></li><li>毕业论文选题应<strong>小题大做</strong>，注重<strong>聚焦</strong></li></ol><h3 id="提升论文质量"><a href="#提升论文质量" class="headerlink" title="提升论文质量"></a>提升论文质量</h3><hr><ol><li>工程师应具备PDCA的思维，在毕业设计过程中始终贯彻PDCA的原则<pre><code>- P：plan- D：do- C：check- A：act</code></pre></li><li>提升毕业论文质量应注重7个方面：<ul><li>逻辑思维</li><li>人机系统</li><li>问题导向————现实问题</li><li>语言表达</li><li>系统思维</li><li>项目管理</li><li>重视情商</li></ul></li><li>论文的关注点：<ol><li>详细设计中的算法怎么样？</li><li>结构设计是否符合业务需求？</li><li>功能与现实的联系怎么样？</li></ol></li><li>人机系统应采用<strong>闭环</strong>的方式，即反馈控制</li><li>学术语言具备的4个特征，如图所示<img src="/2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/essay04.png" class=""><img src="2020-1-11-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/essay04.png"></li><li>使用<strong>WBS</strong>（work breakdown structure）来制定计划</li><li><strong>技术、商业</strong>两手抓</li><li>描述毕业论文的权威性：TQCS<pre><code>- T: time- Q: quality- C: charge- S: serve</code></pre><h3 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3></li></ol><hr><ol><li>软件需求的层次<ul><li>功能需求<ul><li>业务需求<ul><li><strong>效益、效率</strong>是业务建模的核心</li></ul></li><li>用户需求</li><li>功能需求</li></ul></li><li>非功能需求</li></ul></li><li>需求说明语句的注意事项，如图所示<img src="/2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/essay05.png" class=""><img src="2020-1-11-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/essay05.png"><img src="/2020/01/11/bi-ye-she-ji-zhi-dao-jiang-zuo-bi-ji/essay06.png" class=""><img src="2020-1-11-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%AF%BC%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/essay06.png"></li><li><strong>业务建模</strong>与<strong>用例建模</strong>有相似之处，注意区别！</li></ol><h3 id="概要设计"><a href="#概要设计" class="headerlink" title="概要设计"></a>概要设计</h3><hr><ol><li>概要设计应注意的方面：<ul><li>架构</li><li>不同的类起什么作用？</li></ul></li></ol><h3 id="详细设计"><a href="#详细设计" class="headerlink" title="详细设计"></a>详细设计</h3><hr><ol><li>详细设计应描述核心关键模块</li><li>使用PAD图分析工作流程</li><li>最后应进行程序复杂性评估</li></ol><blockquote><p>推荐书籍：<a href="https://item.jd.com/12524280.html">UML 2 面向对象分析与设计</a> ；<a href="https://item.jd.com/11232328.html">硅谷最受欢迎的情商课</a> ；<a href="https://item.jd.com/12094687.html">逻辑思维只要5步</a> ；<a href="https://item.jd.com/12611862.html">软件工程方法与实践</a> ；<a href="https://item.jd.com/12360791.html">软件项目管理与实践</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 毕业设计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>7月8日实习问题总结</title>
+      <link href="2019/11/29/7-yue-8-ri-shi-xi-wen-ti-zong-jie/"/>
+      <url>2019/11/29/7-yue-8-ri-shi-xi-wen-ti-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<h3 id="实习遇到的问题"><a href="#实习遇到的问题" class="headerlink" title="实习遇到的问题"></a>实习遇到的问题</h3><ol><li><p>数据库插入中文异常</p><ul><li>问题分析：是连接数据库时的字符编码出现了问题，导致无法插入中文字符，如图1-1所示<img src="/2019/11/29/7-yue-8-ri-shi-xi-wen-ti-zong-jie/p2-1.PNG" class="">图1-1 插入中文异常 </li><li>解决方案：通过查阅相关文章，我们发现：这是编码格式错误导致的问题，可在连接数据库的时指定字符编码格式，在URL的末尾处加上<code>jdbc:mysql://127.0.0.1:3306/newsdatabase?characterEncoding=UTF-8</code>。之后，在向数据库中插入中文数据时。可正常显示，如图<img src="/2019/11/29/7-yue-8-ri-shi-xi-wen-ti-zong-jie/p2-2.PNG" class="">图1-2 解决后的效果</li></ul><blockquote><p>这是之前我参加学院组织的毕业实习所遇到的问题，写在这里，便于以后查阅。</p><footer><strong>Clement-阿五</strong></footer></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Photoshop2015安装教程</title>
+      <link href="2019/11/04/photoshop2015-an-zhuang-jiao-cheng/"/>
+      <url>2019/11/04/photoshop2015-an-zhuang-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Photoshop2015安装教程"><a href="#Photoshop2015安装教程" class="headerlink" title="Photoshop2015安装教程"></a>Photoshop2015安装教程</h1><blockquote><p>系统环境：Windows10<br>  Photoshop版本：2015</p></blockquote><ol><li>首先断网</li><li>启动安装程序，并点击忽略，如图 <img src="/2019/11/04/photoshop2015-an-zhuang-jiao-cheng/p1.PNG" class=""> <img src="2019-11-4-Photoshop2015%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/p1.PNG"></li><li>点击<strong>试用</strong>，如图 <img src="/2019/11/04/photoshop2015-an-zhuang-jiao-cheng/p2.PNG" class=""> <img src="2019-11-4-Photoshop2015%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/p2.PNG"></li><li>点击<strong>登录</strong>-&gt;<strong>以后登录</strong>，如图 <img src="/2019/11/04/photoshop2015-an-zhuang-jiao-cheng/p3.PNG" class=""> <img src="2019-11-4-Photoshop2015%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/p3.PNG"> <img src="/2019/11/04/photoshop2015-an-zhuang-jiao-cheng/p4.PNG" class=""> <img src="2019-11-4-Photoshop2015%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/p4.PNG"></li><li>选择安装位置，开始安装，如图 <img src="/2019/11/04/photoshop2015-an-zhuang-jiao-cheng/p5.PNG" class=""> <img src="2019-11-4-Photoshop2015%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/p5.PNG"></li><li>安装完成，如图 <img src="/2019/11/04/photoshop2015-an-zhuang-jiao-cheng/p6.PNG" class=""> <img src="2019-11-4-Photoshop2015%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/p6.PNG"></li><li>使用激活工具进行破解，即可完成</li></ol><blockquote><p>这是之前我安装和配置Photoshop的步骤，写在这里，便于以后查阅</p><footer><strong>Clement-阿五</strong></footer></blockquote><blockquote><p>参考文章：<a href="https://jingyan.baidu.com/article/47a29f248faaaec015239947.html">Photoshop cc2015 安装及破解教程</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Photoshop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JNDI学习笔记</title>
+      <link href="2019/07/12/jndi-xue-xi-bi-ji/"/>
+      <url>2019/07/12/jndi-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JNDI学习笔记"><a href="#JNDI学习笔记" class="headerlink" title="JNDI学习笔记"></a>JNDI学习笔记</h1><h3 id="基础知识篇"><a href="#基础知识篇" class="headerlink" title="基础知识篇"></a>基础知识篇</h3><hr><ol><li>JNDI（Java Naming and Directory Interface）</li><li>原理：将要使用的东西放到一个固定的地方，要使用的时候，从这个地方根据名称取出我们要用的东西</li><li>使用方法：<pre><code>Context context = new InitialContext(); //获取到JNDI上下文环境DataSource ds = (DataSourse)context.lookup(jndiName);  //在JNDI环境中获取指定的数据源</code></pre></li><li>使用JDBC操作数据库的步骤：<ol><li>加载数据库驱动</li><li>获取数据库连接</li><li>操作数据库</li><li>关闭数据库连接</li></ol></li><li>在Tomcat 4.1.27之后，可将数据库连接池配置在服务器上。</li><li>在服务器上有一个JNDI树，上面绑定了许多DataSourse，每一个DataSourse对应许多连接Connection，通过获取到这些连接进行数据库操作，如图<img src="/2019/07/12/jndi-xue-xi-bi-ji/j1-1.PNG" class=""></li><li>使用是从数据库连接池中获取一个连接，使用完毕后<strong>关闭掉这个连接</strong>，即将连接放回连接池中。<ul><li>不关闭的话，连接池也会自动回收，但时间过久，如果频繁访问数据库，会导致连接池中无连接可用。</li></ul></li></ol><blockquote><p>在Tomcat中配置数据库连接池时，Tomcat的<code>lib</code>目录必须要有<strong>数据库的驱动程序</strong></p></blockquote><blockquote><p>参考文章：<a href="https://www.jianshu.com/p/ad4c16e0b8ba">java（JNDI）</a></p></blockquote><h3 id="配置篇"><a href="#配置篇" class="headerlink" title="配置篇"></a>配置篇</h3><hr><blockquote><p>使用环境：<br>Java版本：jdk 1.8<br>服务器版本：Apache Tomcat 9.0<br>数据库版本：MySQL Community 5.27</p></blockquote><ol><li><p>将数据库驱动包放到Tomcat的<code>lib</code>目录下</p></li><li><p>修改<code>conf</code>目录下的<strong>server.xml</strong>文件，新增resource标签，如图<img src="/2019/07/12/jndi-xue-xi-bi-ji/j2-1.PNG" class=""></p><pre><code>&lt;Resource   name="jdbc/mysql"  auth="Container"   type="javax.sql.DataSource"  maxActive="100"   maxIdle="30"   maxWait="10000"  username="root"   password="root"  driverClassName="com.mysql.jdbc.Driver"  url="jdbc:mysql://127.0.0.1:3306/springtest?useUnicode=true&amp;characterEncoding=utf-8"/&gt;</code></pre></li><li><p>在Web项目的<strong>web.xml</strong>文件中新增对resource的引用，如图<img src="/2019/07/12/jndi-xue-xi-bi-ji/j2-2.PNG" class=""></p><pre><code>&lt;resource-ref&gt; &lt;res-ref-name&gt;jdbc/mysql&lt;/res-ref-name&gt; &lt;res-type&gt;javax.sql.DataSource&lt;/res-type&gt; &lt;res-auth&gt;Container&lt;/res-auth&gt;&lt;/resource-ref&gt;   </code></pre></li><li><p>修改<code>conf</code>目录下的<strong>context.xml</strong>文件，新增resource-link标签，如图<img src="/2019/07/12/jndi-xue-xi-bi-ji/j2-3.PNG" class=""></p><pre><code>&lt;ResourceLink name="mysqlData" global="jdbc/mysql" type="javax.sql.DataSource"/&gt;</code></pre></li><li><p>至此，数据库连接池就已经配置完了。</p><blockquote><p>参考文章：<a href="https://www.jianshu.com/p/de936f8ce3a9">数据连接学习（一）：JNDI入门及数据源配置</a></p></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SSM框架常见面试题汇总</title>
+      <link href="2019/07/06/ssm-kuang-jia-chang-jian-mian-shi-ti-hui-zong/"/>
+      <url>2019/07/06/ssm-kuang-jia-chang-jian-mian-shi-ti-hui-zong/</url>
+      
+        <content type="html"><![CDATA[<h1 id="SSM框架常见面试题汇总"><a href="#SSM框架常见面试题汇总" class="headerlink" title="SSM框架常见面试题汇总"></a>SSM框架常见面试题汇总</h1><h3 id="Spring篇"><a href="#Spring篇" class="headerlink" title="Spring篇"></a>Spring篇</h3><hr><ol><li>Spring的作用：<ul><li>作用：Spring（轻量级框架），是一个Bean工厂，用于管理Bean的生命周期、框架集成</li><li>核心：<strong>IOC(service反转给acton)/DI（dao–&gt;service）</strong> 和 <strong>AOP</strong></li></ul></li><li>IOC的作用：解决对象之间的依赖问题，通过注解 / XML文件将不同的对象进行关联，降低耦合度</li><li>配置文件中的内容：<ul><li>开启事务注解驱动</li><li>事务管理器</li><li>开启注解功能，并配置扫描包</li><li>配置数据库</li><li>配置SQL会话工厂，别名，映射文件</li></ul></li><li>返回具体数据类型的注解：<pre><code>@RequestBody</code></pre></li><li>DI的3种方式：<ul><li>构造器注入（构造方法）  ——XML</li><li>属性的setter方法注入   ——XML</li><li>接口注入</li></ul></li><li>Spring中有哪些模式：<ul><li>工厂模式：通过方法创建Bean</li><li>单例模式：每个Bean的作用域都是单例</li><li>代理模式：例如AOP</li></ul></li></ol><blockquote><p>注：Bean的作用域：<br>   singleton, prototype;<br>   request, webSocket;<br>   application, session;</p></blockquote><blockquote><p>注：单例：在整个运行过程中只有一个实例</p></blockquote><ol start="7"><li>IOC的原理：<ul><li>通过Java反射机制生成对象注入</li></ul></li></ol><blockquote><p>Java反射机制：<br>   动态获取对象所需要的属性和方法</p></blockquote><ol start="8"><li>AOP的原理：<ul><li>动态代理</li></ul></li></ol><blockquote><p>动态代理<br>   JDK动态代理（Spring默认）、CGLIB动态代理</p></blockquote><h3 id="Spring-MVC篇"><a href="#Spring-MVC篇" class="headerlink" title="Spring MVC篇"></a>Spring MVC篇</h3><hr><ol><li>Spring MVC的控制器是单例模式，具有什么问题？如何解决？<ul><li>问题：多线程访问时的线程安全问题</li><li>解决方案：不用同步，控制器里不要写字段</li></ul></li><li>SpringMvc中函数的<strong>返回值</strong>？<ul><li>返回值：String、ModelAndView对象、List、Set</li></ul></li><li>Spring MVC工作流程：<img src="/2019/07/06/ssm-kuang-jia-chang-jian-mian-shi-ti-hui-zong/s1.PNG" class=""></li></ol><h3 id="Mybatis篇"><a href="#Mybatis篇" class="headerlink" title="Mybatis篇"></a>Mybatis篇</h3><hr><ol><li>Mybatis与Ibatis的区别：<ul><li>Mybatis是Ibatis的升级版本</li></ul></li><li>Mybatis的接口绑定：<ul><li>实现了DAO层与XML文件的绑定，自动生成数据操作的相关接口。</li></ul></li><li>注解和XML绑定的使用情况：<ul><li>当SQL语句很简单时，使用注解</li></ul></li><li>Mybatis的核心类是<strong>SqlSession</strong></li><li>Mybatis的优势：<ul><li>独立SQL语句</li><li>将JDBC、底层API进行封装，将结果集自动转换成pojo</li><li>灵活编写SQL语句</li></ul></li><li><code>${}</code>和<code>#{}</code>的区别？<ul><li><code>${}</code>: 简单字符串替换，把${}直接替换成变量的值，再将其进行预编译</li><li><code>#{}</code>: 先将sql中的#{}替换成<code>?</code>, 再进行预编译，可以防止SQL注入</li></ul></li><li>Mybatis工作原理图：<img src="/2019/07/06/ssm-kuang-jia-chang-jian-mian-shi-ti-hui-zong/s2.PNG" class=""></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>choco学习感悟</title>
+      <link href="2019/06/28/choco-xue-xi-gan-wu/"/>
+      <url>2019/06/28/choco-xue-xi-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="chocolatey学习笔记"><a href="#chocolatey学习笔记" class="headerlink" title="chocolatey学习笔记"></a>chocolatey学习笔记</h1><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ol><li>chocolatey是一款类似于Linux系统中的<code>rpm、yum</code>的Windows软件包管理器，安装包完全来自于软件的官网，不会添加任何第三方代码，安全、可靠<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3></li><li>以管理员方式运行命令行cmd</li><li>以管理员身份运行cmd，输入以下命令，完成安装，命令如图<pre><code>@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" &amp;&amp; SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"   </code></pre><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3></li><li>安装软件，命令如下<pre><code>choco install 包名</code></pre></li><li>查看本地软件，命令如下<pre><code>choco list -lo</code></pre></li><li>更新软件，命令如下<pre><code>choco update 包名</code></pre></li><li>卸载软件，命令如下<pre><code>choco uninstall 包名</code></pre></li><li>查看软件是否需要更新，命令如下<pre><code>choco outdated</code></pre></li></ol><blockquote><p>注：可使用<code>--yes</code>选项，自动安装，安装时无需再输入y</p></blockquote><blockquote><p>参考文章：<a href="https://www.jianshu.com/p/5325decea0d2">Windows下Chocolatey上手教程</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件包管理器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maven安装与配置</title>
+      <link href="2019/06/26/maven-an-zhuang-yu-pei-zhi/"/>
+      <url>2019/06/26/maven-an-zhuang-yu-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Maven安装与配置"><a href="#Maven安装与配置" class="headerlink" title="Maven安装与配置"></a>Maven安装与配置</h1><blockquote><p>系统环境：Windows 10 专业版<br>  编译器：IntelliJ Idea 2018.3.1; Eclipse-JavaEE<br>  Maven版本：3.6.1</p></blockquote><h3 id="安装Maven"><a href="#安装Maven" class="headerlink" title="安装Maven"></a>安装Maven</h3><hr><ol><li>从<a href="http://maven.apache.org/download.cgi">Maven官网</a>上下载二进制版本，如图<img src="/2019/06/26/maven-an-zhuang-yu-pei-zhi/m1.PNG" class=""><img src="2019-6-26-Maven%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/m1.PNG"></li><li>将Maven安装目录的<code>bin</code>目录添加到path环境变量中，如图<img src="/2019/06/26/maven-an-zhuang-yu-pei-zhi/m2.PNG" class=""><img src="2019-6-26-Maven%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/m2.PNG"></li><li>在命令提示符中输入命令<pre><code>mvn -v</code></pre>,若出现一下结果，则安装成功，如图<img src="/2019/06/26/maven-an-zhuang-yu-pei-zhi/m3.PNG" class=""><img src="2019-6-26-Maven%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/m3.PNG"></li></ol><h3 id="配置Maven"><a href="#配置Maven" class="headerlink" title="配置Maven"></a>配置Maven</h3><h4 id="IntelliJ-IDEA中配置Maven"><a href="#IntelliJ-IDEA中配置Maven" class="headerlink" title="IntelliJ IDEA中配置Maven"></a>IntelliJ IDEA中配置Maven</h4><hr><ol><li>在Maven安装目录中创建一个名为<code>repository</code>的目录，用来存放Maven下载的Jar包，如图<img src="/2019/06/26/maven-an-zhuang-yu-pei-zhi/m4.PNG" class=""><img src="2019-6-26-Maven%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/m4.PNG"></li><li>在IntelliJ IDEA的设置中将内置的Maven换成我们下载的Maven，如图<img src="/2019/06/26/maven-an-zhuang-yu-pei-zhi/m5.PNG" class=""><img src="2019-6-26-Maven%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/m5.PNG"></li></ol><h4 id="Eclipse中配置Maven"><a href="#Eclipse中配置Maven" class="headerlink" title="Eclipse中配置Maven"></a>Eclipse中配置Maven</h4><hr><blockquote><p>这是之前我安装、配置Maven的步骤，写在这里，便于以后查阅</p><footer><strong>Clement-阿五</strong></footer></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>photoshop2015配置与优化</title>
+      <link href="2019/05/18/photoshop2015-pei-zhi-yu-you-hua/"/>
+      <url>2019/05/18/photoshop2015-pei-zhi-yu-you-hua/</url>
+      
+        <content type="html"><![CDATA[<h1 id="photoshop2015配置与优化"><a href="#photoshop2015配置与优化" class="headerlink" title="photoshop2015配置与优化"></a>photoshop2015配置与优化</h1><blockquote><p>系统环境：Windows10 专业版<br>  Photoshop版本：Photoshop CC 2015</p></blockquote><ol><li><p>在Photoshop保存图片时，提示<code>无法保存，因为没有足够内存</code>和<code>要求96和8之间的整数</code>，如图 </p><img src="/2019/05/18/photoshop2015-pei-zhi-yu-you-hua/ps1.PNG" class=""><p><img src="2019-5-18-photoshop2015%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/ps1.PNG"></p></li><li><p>首先，修改注册表，定位到</p><pre><code>HKEY_CURRENT_USER\Software\Adobe\Photoshop\90.0</code></pre> <p>双击打开<strong>90.0</strong>这个文件夹，新建DWORD(32位)值，并修改其值，具体内容如图 </p><img src="/2019/05/18/photoshop2015-pei-zhi-yu-you-hua/ps2.PNG" class=""> <p><img src="2019-5-18-photoshop2015%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/ps2.PNG"></p><img src="/2019/05/18/photoshop2015-pei-zhi-yu-you-hua/ps3.PNG" class=""><p><img src="2019-5-18-photoshop2015%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/ps3.PNG"></p><ul><li>【注】不同版本的Photoshop这里的文件夹数字是不一样的</li></ul></li><li><p>然后，重启Photoshop，打开<strong>编辑-&gt;首选项-&gt;性能</strong>，在文件处理里选择<strong>Camera Raw 首选项</strong>，清空缓存、修改位置、更改大小，如图</p><img src="/2019/05/18/photoshop2015-pei-zhi-yu-you-hua/ps4.PNG" class=""><p><img src="2019-5-18-photoshop2015%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/ps4.PNG"></p></li><li><p>接着，在性能里，更改Photoshop内存使用量，如图</p><img src="/2019/05/18/photoshop2015-pei-zhi-yu-you-hua/ps5.PNG" class=""><p><img src="2019-5-18-photoshop2015%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/ps5.PNG"></p></li><li><p>接着，更改Photoshop缓存的暂存位置，选择除系统盘外的其它分区，如图</p><img src="/2019/05/18/photoshop2015-pei-zhi-yu-you-hua/ps6.PNG" class=""><p><img src="2019-5-18-photoshop2015%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/ps6.PNG"></p></li><li><p>最后，重启Photoshop</p></li></ol><blockquote><p>参考教程：<a href="https://jingyan.baidu.com/article/e73e26c06829b424adb6a71c.html">无法完成请求‘要求96和8之间的整数’解决方案</a>  <a href="http://www.16xx8.com/photoshop/jiaocheng/2015/137105.html?winzoom=1">优化技巧: PS保存时总提示没有足够内存怎么办？</a></p></blockquote><blockquote><p>这是之前我配置和优化Photoshop的步骤，写在这里，便于以后查阅</p><footer><strong>Clement-阿五</strong></footer></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Photoshop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySQL的安装与配置</title>
+      <link href="2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/"/>
+      <url>2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="MySQL的安装与配置"><a href="#MySQL的安装与配置" class="headerlink" title="MySQL的安装与配置"></a>MySQL的安装与配置</h1><blockquote><p>系统环境：Windows10<br>MySQL版本：社区版5.7</p></blockquote><ol><li>首先打开从<a href="https://www.mysql.com/downloads/">MySQL官网</a>下载好的MySQL5.7的安装包，同意许可</li><li>然后选择安装类型，这里选择“开发者”，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms1.PNG" class=""></li><li>然后，检查并安装所需要的以来，点击“执行”按钮执行，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms2.PNG" class=""></li><li>接着，开始安装，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms3.PNG" class=""></li><li>安装完成后，进入配置界面，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms4.PNG" class=""></li><li>在配置中，除MySQL账户配置外，都可以保持默认，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms5.PNG" class=""> <img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms6.PNG" class=""></li><li><strong>提示</strong>：在配置Windows服务时，建议把第二个复选框取消勾选，这样防止MySQL自启动，拖慢电脑开机速度，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms7.PNG" class=""><ul><li>这样在每次需要启动MySQL时，需要在<strong>服务</strong>界面手动开启</li></ul></li><li>配置完成后，进入应用配置界面，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms8.PNG" class=""></li><li>接着，进入到测试连接服务器界面，输入管理员密码，测试与MySQL服务器的连接，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms9.PNG" class=""></li><li>配置完成后，进入最终配置完成界面，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms10.PNG" class=""></li><li>安装完成，如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms11.PNG" class=""></li><li>把MySQL服务器安装目录下的<code>bin</code>目录的完整路径添加到系统环境变量path中（注意不是<em>用户变量</em>！），如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms13.PNG" class=""></li><li>环境变量配置完成后，在任意位置打开命令行即可连接到MySQL，输入命令<pre><code>mysql -h localhost -u用户名 -p密码</code></pre>, 如图<img src="/2019/05/11/mysql-de-an-zhuang-yu-pei-zhi/ms12.PNG" class=""></li></ol><ul><li>注意<code>-u</code>和<code>用户名</code>，<code>-p</code>和<code>密码</code>之间没有空格</li></ul><ol start="14"><li>MySQL自带的workbench是英文界面，对于初学者不太好操作，这里推荐SQLyog，界面和SQL Server的SSMS差不多</li></ol><blockquote><p>这是之前我安装和配置MySQL的步骤，写在这里，便于以后查阅</p><footer><strong>Clement-阿五</strong></footer></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>程序员必读书单</title>
+      <link href="2019/05/11/cheng-xu-yuan-bi-du-shu-dan/"/>
+      <url>2019/05/11/cheng-xu-yuan-bi-du-shu-dan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="程序员必读书单"><a href="#程序员必读书单" class="headerlink" title="程序员必读书单"></a>程序员必读书单</h1><ul><li><input disabled="" type="checkbox"> 代码整洁之道</li><li><input disabled="" type="checkbox"> 代码整洁之道 程序员的职业素养</li><li><input disabled="" type="checkbox"> 设计模式：可复用面向对象软件的基础</li><li><input disabled="" type="checkbox"> 重构：改善既有代码的设计</li><li><input disabled="" type="checkbox"> 深入浅出设计模式</li><li><input disabled="" type="checkbox"> 领域驱动设计:软件核心复杂性应对之道</li><li><input disabled="" type="checkbox"> 软技能:代码之外的生存指南</li><li><input disabled="" type="checkbox"> 架构整洁之道</li><li><input disabled="" type="checkbox"> 高效的工程师</li><li><input disabled="" type="checkbox"> 程序员修炼之道:从小工到专家</li><li><input disabled="" type="checkbox"> Java编程思想</li><li><input disabled="" type="checkbox"> effective java 中文版</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 书籍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>空间数据分析学习笔记</title>
+      <link href="2019/05/07/kong-jian-shu-ju-fen-xi-xue-xi-bi-ji/"/>
+      <url>2019/05/07/kong-jian-shu-ju-fen-xi-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<p>[toc]</p><h1 id="空间数据分析学习笔记"><a href="#空间数据分析学习笔记" class="headerlink" title="空间数据分析学习笔记"></a>空间数据分析学习笔记</h1><h3 id="空间数据模型篇"><a href="#空间数据模型篇" class="headerlink" title="空间数据模型篇"></a>空间数据模型篇</h3><hr><ol><li>地图认知模型针对不同的使用者分为不同的模型<ul><li>设计者</li><li>使用者</li></ul></li><li>地球模型的3面（2 + 1）<ul><li>任意水准面，大地水准面</li><li>地球表面 </li></ul></li><li>大地坐标：由<strong>点</strong>和<strong>角度</strong>共同确定</li><li>地理格网：用于空间要素定位的定位参考系统<ul><li>由<strong>经线</strong>，<strong>纬线</strong>组成</li></ul></li><li>地理坐标系 = 地理格网？ （1-P17）</li><li>变形分三种：<ul><li>长度</li><li>面积</li><li>角度</li></ul></li><li>投影：地理坐标 –&gt; 平面坐标</li><li>1：100万地形图 / 省区图：<strong>兰伯特投影</strong>；除此均为<strong>高斯-克吕格投影</strong></li><li>空间数据逻辑模型：概念模型 -&gt; 物理模型的桥梁</li><li>栅格的形状有正方形、矩形</li><li>栅格数据的分层表示，每一层表示一种属性</li><li>栅格单元的边长：L = 1/2 * |S (1-P45)</li><li>镶嵌数据模型：小面块拟合物体自然表面</li><li>三维空间数据模型：面模型、体模型、混合模型（面模型 + 体模型）</li><li>四叉树：二二分，全相同的就不用再分割了</li><li>按列合并：</li></ol><ul><li>merge：需要共同变量</li><li>cbind: 直接添加</li></ul><ol start="17"><li>按行合并：rbind(列名相同)</li><li><strong>空间数据</strong>：有空间坐标 / 相对位置的数据</li></ol><h3 id="空间自相关篇"><a href="#空间自相关篇" class="headerlink" title="空间自相关篇"></a>空间自相关篇</h3><hr><ol><li>空间相关性：变量通过空间邻近与自己相关，即某地发生的事件会影响到旁边地点发生的时间</li><li>空间异质性：地理空间上的区域分布不均，发展不均</li><li>空间统计常用方法：<ul><li>点模式分析方法：<ul><li>一阶<ul><li>样方计数法</li><li>核密度法</li></ul></li><li>二阶<ul><li>K函数，L函数</li><li>G函数、F函数</li><li>最近邻指数NNI</li></ul></li></ul></li><li>面状数据空间模式分析<ul><li>空间自相关分析<ul><li>Moran Index</li><li>Getis G</li><li>Genry’s C</li></ul></li></ul></li><li>连续空间数据分析<ul><li>确定性插值<ul><li>局部性插值<ul><li>反向权重距离插值</li><li>径向基函数插值</li><li>局部多项式插值</li></ul></li><li>全局性插值<ul><li>全局多项式插值</li></ul></li></ul></li><li>不确定性插值<ul><li>普通克里金</li><li>简单克里金</li><li>泛克里金</li><li>块克里金</li><li>协同克里金</li></ul></li></ul></li><li>空间回归分析<ul><li>空间自回归</li><li>地理加权回归</li></ul></li></ul></li><li>空间统计的工具：R, ArcGIS, OpenGeoDa, SaTSan, WinBUGS</li><li>空间自相关分析：指在邻近区域上某变量的同一属性值之间的相关程度，主要是利用<strong>空间自相关系数</strong>进行<em>度量并检验</em>邻域上属性变量是否呈现高高相邻，低低相邻，高低间错分布<br>，即有无聚集性</li><li><strong>空间正相关</strong>：在邻域上，某变量的同一属性值表现出相同 / 相似的相关程度，即属性值在空间区域上呈现高的地方，邻近区域也高。即呈现出聚集的趋势，为聚集分布</li></ol><p><strong>空间负相关</strong>：在邻域上，某变量的同一属性值表现出不同的相关程度，即属性值在空间区域上呈现高的地方，邻近区域反而低，即呈现出互斥的趋势，为均匀分布<br><strong>空间不相关</strong>：在邻域上，某变量的同一属性值没有表现出任何依赖关系，即呈现随机分布<br>7. 空间自相关分析分为：</p><ul><li>全局空间自相关分析<ul><li>定义：在整个研究区域范围内分析变量在空间分布上的聚集程度</li><li>全局Moran’I：<ul><li>公式：区域间的协方差和方差之比</li><li>反映属性变量在整个研究区域范围内的空间聚集程度</li><li>性质：<ul><li><code>&gt;0</code>: 空间正相关，聚集分布</li><li><code>&gt;0</code>: 空间负相关，离散互斥</li><li><code>=0</code>: 空间不相关，随机分布</li></ul></li></ul></li></ul></li><li>局部空间自相关分析<ul><li>定义：在特定的局部区域范围内分析变量在空间分布上的聚集程度</li><li>局部Moran’I：<ul><li>公式：同上，大体相同</li><li>反映属性变量在局部区域范围内的空间聚集程度</li><li>性质：同上</li></ul></li></ul></li><li>【注】不论哪种莫兰指数，要使莫兰指数要有意义，必须建立在已经做了显著性检验（基于蒙特卡罗的随机化零检验、Z显著性检验）的基础上</li></ul><h3 id="空间点模式分析篇"><a href="#空间点模式分析篇" class="headerlink" title="空间点模式分析篇"></a>空间点模式分析篇</h3><hr><ol><li>点模式分析方法分为两类：<ul><li>基于密度的方法 –一阶效应（取决于绝对位置）</li><li>基于距离的方法 –二阶效应（取决于相对位置和距离）</li></ul></li><li>某点的密度：该点在单位面积内事件点的数量 / 面积</li><li>若不进行显著性检验进行判断，则只能将当前观测到的频率分布与已知的频率分布做比较，去找显著性差异，从而判断点的分布类型<br>【注】一般将<strong>随机分布模式</strong>作为标准分布模式</li><li>点模式分析用到的方法汇总：<ul><li>样方分析法：<ul><li>样方大小：<code>2A（研究区域的面积） / n（研究区域点的数量）</code></li><li>显著性检验： <ul><li>K-S检验  （复杂）</li><li>方差均值比的开方检验  (比上一种更厉害~)<ul><li>ICS（聚集性指数）<pre><code>ICS = s^2 / m - 1 </code></pre></li><li>结果<ul><li><code>=0</code>: 随机分布</li><li><code>&gt;0</code>: 聚集分布</li><li><code>&lt;0</code>: 均匀分布</li></ul></li></ul></li></ul></li><li>缺点：不能反映样方里点的空间分布信息</li></ul></li><li>核密度估计法：<ul><li>基本思想：任意1个点在任意位置都有一个密度，这个密度是通过对以这个点为中心，指定带宽为半径的范围内事件点数量的统计，然后再除以这个范围的面积得出的结果。<br>这个密度反映了：事件点对该估值点的影响，距离事件点的距离越远，影响越小；反之，影响越大</li><li>带宽确定了，核密度函数的形式对密度估计值影响很小</li></ul></li><li>最近邻距离法–最近邻指数NNI<ul><li>使用每个点的最近邻距离作为判断点分布模式的依据</li></ul></li><li>G函数，F函数<ul><li>使用每个点的最近邻距离的空间分布特征作为判断点分布模式的依据</li><li>通过图像表现分布模式</li></ul></li><li>K函数, L函数<ul><li>使用不同尺度下的最近邻距离作为判断点分布模式的依据</li></ul></li></ul></li></ol><blockquote><p>《空间数据分析》</p><footer><strong>毕硕本, 北京大学出版社</strong><cite><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.57.7e755c84es2KXy&amp;id=592965905598&amp;ns=1&amp;abbucket=12">; 购买链接</a></cite></footer></blockquote><blockquote><p>《空间统计实战》</p><footer><strong>肖革新, 科学出版社</strong><cite><a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.32.555719d1CyaGZL&amp;id=571076636661&amp;ns=1&amp;abbucket=12">; 购买链接</a></cite></footer></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端学习笔记</title>
+      <link href="2019/04/30/qian-duan-xue-xi-bi-ji/"/>
+      <url>2019/04/30/qian-duan-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前端学习笔记"><a href="#前端学习笔记" class="headerlink" title="前端学习笔记"></a>前端学习笔记</h1><ol><li>所有的空格 / 空行都会被浏览器解析为一个空格</li><li>即将被废弃的标签 和 属性：<ul><li><code>&lt;center&gt; &lt;font&gt; &lt;strike&gt; &lt;u&gt;</code></li><li><code>align color bgcolor</code></li></ul></li><li><code>&lt;bdo dir="rtl"&gt;</code>用于定义双向重写，改变文字方向</li><li><code>&lt;code&gt;</code>标签不会输出空格和换行</li><li><code>&lt;var&gt;</code>用于定于数学变量</li><li><code>&lt;a&gt;</code>有两种方式<ul><li>超链接</li><li>锚</li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LSTM系列神经网络学习笔记</title>
+      <link href="2019/04/30/lstm-xi-lie-shen-jing-wang-luo-xue-xi-bi-ji/"/>
+      <url>2019/04/30/lstm-xi-lie-shen-jing-wang-luo-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="RNN系列学习笔记"><a href="#RNN系列学习笔记" class="headerlink" title="RNN系列学习笔记"></a>RNN系列学习笔记</h1><h3 id="LSTM篇"><a href="#LSTM篇" class="headerlink" title="LSTM篇"></a>LSTM篇</h3><hr><ol><li>LSTM（长短期记忆网络），是SimpleRNN的扩展，可以方便地替换掉SimpleRNN</li><li>LSTM中，由上一时间步的隐藏状态 + 单元的内部记忆共同生成当前时间步地隐藏状态</li><li>为了解决梯度消失，引入了输入门i、遗忘门f、输出门o<ul><li>sigmoid函数调节这些门的输入使通过这些门后输出在<strong>0-1之间</strong></li><li>不同门的作用：<ul><li>遗忘门：让前一时间步的部分隐藏状态通过</li><li>输入门：让当前时间步的部分输入值通过</li><li>输出门：让当前时间步的多少的隐藏状态传到下一时间步中</li></ul></li></ul></li><li>当前时间步的单元状态Ct = (C(t-1) * f) + (i * g)</li><li>当前时间步的隐藏状态ht = tanh(Ct) * o</li></ol><h3 id="FC-LSTM篇"><a href="#FC-LSTM篇" class="headerlink" title="FC-LSTM篇"></a>FC-LSTM篇</h3><hr><ol><li><h3 id="GRU篇"><a href="#GRU篇" class="headerlink" title="GRU篇"></a>GRU篇</h3></li></ol><hr><ol><li>GRU（门控循环单元），相比于LSTM，内部<strong>结构简单</strong>，训练速度快，和LSTM一样，都能够替换SimpleRNN单元</li><li>相比于LSTM，引入更新门z、重置门r<ul><li>重置门：将当前时间步的输入与上一时间步的隐藏状态结合</li><li>更新门：让上一时间步的多少的隐藏状态保留下来</li></ul></li><li>当前时间步的隐藏状态ht = (z * c) + ((1 - z) * h(t-1))</li></ol><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>高效搜索学习笔记</title>
+      <link href="2019/04/30/gao-xiao-sou-suo-xue-xi-bi-ji/"/>
+      <url>2019/04/30/gao-xiao-sou-suo-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="高效搜索学习笔记"><a href="#高效搜索学习笔记" class="headerlink" title="高效搜索学习笔记"></a>高效搜索学习笔记</h1><ol><li>信息素养：基于信息解决问题的综合能力和基本素养</li><li>电商网站上有<strong>海量、多种多样、贴近市场与实际、人性化</strong>的信息资源</li><li>网络问答社区：<ul><li>知乎</li><li>quara（美国版知乎）</li></ul></li><li>filetype支持的文件格式：<ul><li>doc</li><li>ppt</li><li>xls</li><li>pdf</li><li>rtf (<strong>Rich Text Format</strong>, 由微软公司开发的跨平台文档格式。大多数的文字处理软件都能读取和保存RTF文档)</li><li>all(以上5种的总和)</li></ul></li><li>外国的百科知识库：<a href="https://www.wikihow.com/Main-Page">WikiHow</a></li><li><code>"关键词"</code>: 限定关键词不被拆分</li><li><code>intitle:检索词</code>：把检索词限定在搜索结果的标题内，搜索出的结果只在标题中包含<strong>检索词</strong></li><li><code>inurl:url</code>：指定网站的网址</li><li><code>|</code>：<strong>或</strong>的作用</li><li>关键词之间的空格的作用：分别将多个关键词搜出的结果集取<strong>交集</strong>，这样得出的结果包含了所有的关键词</li><li><ul><li>/ -号：</li></ul><ul><li>加号表示搜索结果<strong>必然包含</strong>加号之后的词</li><li>减号表示搜索结果<strong>必然不包含</strong>减号之后的词</li><li>使用示例<pre><code>关键词1 +关键词2  关键词1 -关键词2</code></pre></li></ul></li><li>通配符<code>*</code>：用于代替任何一个关键词</li><li>程序员搜索时用得上的关键字<pre><code>- tutorial - example - tricks - cheatsheet - cookbook - awesome</code></pre></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 高效搜索 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>知识图谱学习笔记</title>
+      <link href="2019/04/30/zhi-shi-tu-pu-xue-xi-bi-ji/"/>
+      <url>2019/04/30/zhi-shi-tu-pu-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="知识图谱学习笔记"><a href="#知识图谱学习笔记" class="headerlink" title="知识图谱学习笔记"></a>知识图谱学习笔记</h1><h3 id="基础知识篇"><a href="#基础知识篇" class="headerlink" title="基础知识篇"></a>基础知识篇</h3><hr><ol><li>起源：由Google在2012年提出，目的是为了改进搜索引擎（从<strong>基于关键词</strong>的方式变为<strong>基于语义</strong>的方式）。能够理解用户的意图，查询出更复杂的信息，提升搜索质量。</li><li>特点：对真实世界中客观存在的<strong>实体 / 概念</strong>以及它们之间的<strong>关系</strong>的描述非常强大。<ul><li>不论<em>强关系 / 弱关系</em>都可以通过知识图谱准确地进行描述</li></ul></li><li><h4 id="知识库-Knowledge-Base-简写KB"><a href="#知识库-Knowledge-Base-简写KB" class="headerlink" title="知识库(Knowledge Base, 简写KB):"></a>知识库(Knowledge Base, 简写KB):</h4><ul><li>定义：一条一条地知识堆积在一起形成了知识库</li><li>分类：<ul><li>Curated KBs(基于策划的知识库 / 结构化的维基百科)：从WorldNet、维基百科等知识库中获取大量地<strong>实体和实体关系</strong></li><li>Extrated KBs(基于扩展的知识库)：直接从网页中爬取，从而抽取三元组（此三元组大多数是非结构化的自然语言的形式），此方法获得的数据存在噪声，精确度低于上一种。</li></ul></li><li>【注意】从维基百科 / 百度百科上获取的是非结构化的数据，利于人们理解，不利于计算机处理</li><li>处理过程：<ul><li>综述：对获取到的知识进行简化，使其更有形式，形成三元组</li><li>三元组：<ul><li>结构：(实体entity（或者topic）,实体关系relation,实体entity)</li><li>相当于E-R图</li><li>实体关系有两种：<ul><li><strong>实体-属性间</strong>的关系<ul><li>此关系连接的两个实体，一个是实体，一个是字符串</li><li>【注意】属性通常用字符串表示</li></ul></li><li><strong>实体-实体间</strong>的关系</li></ul></li><li>实体分两种：<ul><li>实体</li><li>属性</li></ul></li></ul></li></ul></li><li>数据结构（对应两种实体关系）：<ul><li>(实体)-[关系]-(实体)</li><li>(实体)-[关系]-(值)</li></ul></li></ul></li><li>应用：<ul><li>知识存储<ul><li>freebase(已经被Google收购)<ul><li>采用结构化数据存储知识，知识是一条一条的，</li><li>结构：<ul><li>topic: 一条条的知识就是一个实体，一个实体具有相应的属性</li><li>type: 多个同类实体组合在一起构成一个类型，<em>同一个类型的实体具有相同的属性</em></li><li>domain: 多个相关的类型组合在一起构成一个域</li></ul></li></ul></li></ul></li><li>数据校验<ul><li>一致性校验</li></ul></li><li>专家系统<ul><li>Watson临床系统<ul><li>特点：对大量非结构化数据进行认知</li><li>功能：从大数据中进行学习，将各知识片连接起来，理解和解决用户问题。</li><li>相关产品：Watson肿瘤治疗（利用专业知识，深度评估、分析病人的具体情况，为临床医师提供治疗方案）</li></ul></li></ul></li><li>智能机器人</li><li>语义搜索<ul><li>优势：基于知识图谱的搜索，是在已有的知识库中进行搜索，能够精准地返回结果（1个 / 几个）</li></ul></li><li>智能推荐系统</li><li>私人助理<ul><li>siri</li><li>微软小娜</li></ul></li></ul></li></ol><h3 id="知识表达系统篇"><a href="#知识表达系统篇" class="headerlink" title="知识表达系统篇"></a>知识表达系统篇</h3><hr><ol><li>三元组<ul><li>实体entity</li><li>类型type：具有相同属性的实体的集合</li><li>域domain：某一领域内所有类型的集合</li><li>属性property</li><li>关系relation</li></ul></li></ol><h3 id="模式（schema）构建篇"><a href="#模式（schema）构建篇" class="headerlink" title="模式（schema）构建篇"></a>模式（schema）构建篇</h3><hr><ol><li>模式schema = 数据模型</li><li>内容包括<strong>概念类型</strong>和<strong>这些类型的属性</strong></li><li>构建模式（导入数据的过程）的步骤：<ul><li>构建域，尽量抽象<ul><li>抽象到什么程度呢？ –&gt; 不要让其继续向上抽象</li></ul></li><li>确定一个域包括哪些类型<ul><li>此时要考虑的问题：<ul><li>核心需求是什么？</li><li>要解决哪些问题？</li><li>为了满足这些需求，需要创造出哪些概念类型？</li></ul></li><li>为了满足这些需求，需要构建一些类型来满足需求</li></ul></li><li>确定类型的属性</li><li>【注意】<ul><li>产品需求决定了模式的构建</li><li>产品应用决定了模式的<strong>整体</strong>构建方式</li></ul></li></ul></li><li>确认模式的构建流程<ul><li>需求划分<ul><li>分类：<ol><li>基础核心需求：系统<strong>最核心</strong>的需求，<em>优先级最高</em></li><li>模式特色需求：图谱能够解决，而其他方法很难解决的需求</li><li>锦上添花需求：加上有好处，不加也可以的需求</li><li>未来扩展需求</li></ol></li></ul></li><li>列出模式第一期、第二期、第三期分别要完成哪些功能</li><li>将产品需求转化成查询结构<ul><li>在每个功能点后面备注查询构建要点</li></ul></li><li>进行开发</li></ul></li><li>构建模式时所需要的数据源的分类：<ul><li>已经清洗好的数据：直接改下数据格式进行导入</li><li>已经清洗好的数据，但有残缺：要进行数据清洗、知识融合（此时很难确定多个数据实际指的是一个数据）</li><li>无数据：要么<strong>购买</strong> / 要么<strong>爬取</strong></li></ul></li><li>图谱的存储方式：<ul><li>2张表（一张存点，一张存边）</li><li>RDF</li></ul></li><li>图谱查询方式：<ul><li>单机查询（适用于实体数量比较少）</li><li>graphX的分布式的存储（适用于实体数量很多）</li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自然语言处理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo博客搭建步骤</title>
+      <link href="2019/04/29/hexo-bo-ke-da-jian-bu-zou/"/>
+      <url>2019/04/29/hexo-bo-ke-da-jian-bu-zou/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo博客搭建步骤"><a href="#Hexo博客搭建步骤" class="headerlink" title="Hexo博客搭建步骤"></a>Hexo博客搭建步骤</h1><ol><li>注册一个Github账号，<a href="https://github.com/">点击这里注册</a></li><li>新建一个仓库，仓库名称为：<pre><code>GitHub用户名.github.io</code></pre></li><li>安装NodeJS，推荐使用Chocolatey安装<ul><li>命令<pre><code>choco install nodejs</code></pre></li><li>默认安装就好，不需要改动npm缓存位置，改动后会很麻烦！</li><li>【注】也可以在百度上搜索下载nodeJS安装包</li></ul></li><li>安装Git并进行配置<ul><li>命令<pre><code>choco install git</code></pre></li><li>【注】也可以在百度上搜索下载git安装包</li><li>将两个配置文件（以<code>.</code>开头的文件）移动到用户的家目录中，并打开1个新的shell</li><li>配置Git，具体内容如下<pre><code> #### 设置你的 Git 用户名git config --global user.name "&lt;Your-Full-Name&gt;"#### 设置你的 Git 邮箱git config --global user.email "&lt;your-email-address&gt;"#### 确保 Git 输出内容带有颜色标记git config --global color.ui auto#### 对比显示原始状态git config --global merge.conflictstyle diff3git config --list   </code></pre></li><li>将Git与第三方编辑器相结合<pre><code>#### Atom Editor 设置git config --global core.editor "atom --wait"#### Sublime Text 设置git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"#### VSCode 设置git config --global core.editor "code --wait"   </code></pre></li></ul></li></ol><blockquote><p>choco命令要在管理员模式的命令行中运行,否则会报错！</p></blockquote><ol start="3"><li>使用<strong>淘宝镜像cnpm</strong>替换自带的npm<ul><li>命令<pre><code>npm install -g cnpm --registry=https://registry.npm.taobao.org    </code></pre></li></ul></li><li>输入以下两个命令安装hexo所需的文件<pre><code>cnpm install -g hexo-clicnpm install hexo --save   </code></pre></li><li>输入<code>hexo -v</code>查看Hexo是否安装完成</li><li>在本地新建一个文件夹，名称格式：<code>用户名.github.io</code></li><li>进入该文件夹，输入以下两个命令初始化hexo博客，以及安装相应包<pre><code>hexo initcnpm install   </code></pre></li><li>修改博客根目录下的<code>_config.yml</code>文件，要修改的内容如下<pre><code>title: #浏览器导航栏显示的内容subtitle: #网站主标题description: #网站副标题keywords: # 关键词不用写，写了也没用，因为GitHub禁止百度爬虫访问author: #文章作者名字language: zh-CNtimezone: #这里不要改，否则会报错！url: https://GitHub用户名.github.iodeploy:   type: git   repository: https://github.com/GitHub用户名/GitHub用户名.github.io.git   branch: master</code></pre></li><li>可以到<a href="https://hexo.io/themes/">Hexo官方主题</a>下载喜欢的主题，并按照主题教程进行配置</li><li>到<a href="https://hexo.io/zh-cn/docs/">Hexo官方API</a>去学习常见写作命令，这里列出一些使用最多的几个命令：</li></ol><ul><li>hexo clean: 清除<code>public目录</code>和<code>db.json</code></li><li>hexo g: 生成静态网页</li><li>hexo s: 启动本地服务器，默认地址是：<code>http://localhost:4000</code></li><li>hexo d: 部署到Github仓库中</li><li>hexo new post ‘文章名’: 新建一篇文章</li></ul><ol start="11"><li>在部署的时候，要先安装<code>hexo-deployer-git</code>这个包，否则会报错，输入命令：<pre><code>cnpm install --save hexo-deployer-git</code></pre></li><li>评论系统<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">gitalk</a>开启方法：</li></ol><ul><li>修改相关参数，注意参数都是<strong>字符串</strong></li></ul><ol start="13"><li><p><strong>购买域名</strong>。购买完成后，点击<code>Manage DNS</code>，进入域名管理系统，如图<img src="2019-4-29-Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/h1.png"></p><img src="/2019/04/29/hexo-bo-ke-da-jian-bu-zou/h1.png" class=""></li><li><p><strong>设置域名对应的IP地址</strong>。点击<code>A Record</code>进入IP地址绑定界面，如图<img src="2019-4-29-Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/h2.png"></p><img src="/2019/04/29/hexo-bo-ke-da-jian-bu-zou/h2.png" class=""></li><li><p>点击<code>Add A Record</code>按钮新增IP地址表单项，如图<img src="2019-4-29-Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/h3.png"></p><img src="/2019/04/29/hexo-bo-ke-da-jian-bu-zou/h3.png" class=""></li></ol><blockquote><p>如果网站放在Github上，Github服务器的IP地址有两个，分别是    192.30.252.153、    192.30.252.154</p></blockquote><ol start="16"><li><p><strong>设置CNAME</strong>。点击<code>CName Record</code>进入当前域名绑定IP地址界面，为域名划分子域名，如图<img src="2019-4-29-Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/h4.png"></p><img src="/2019/04/29/hexo-bo-ke-da-jian-bu-zou/h4.png" class=""></li><li><p>点击<code>Add CNAME Record</code>按钮，进入新增CNAME记录页面，输入子域名的名称以及对应的外网域名，如图<img src="2019-4-29-Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/h5.png"></p><img src="/2019/04/29/hexo-bo-ke-da-jian-bu-zou/h5.png" class=""></li><li><p>在网站根目录下的source目录中创建无后缀的CNAME文件，将设置好的网站域名保存到CNAME文件中。</p></li><li><p>域名设置完成。</p></li></ol><blockquote><p>参考文章：<a href="https://www.cnblogs.com/joy99/p/6985456.html">Hexo安装</a> <a href="https://npm.taobao.org/">淘宝镜像cnpm</a> <a href="https://blog.csdn.net/weixin_36401046/article/details/52940313">ERROR Deployer not found</a> <a href="https://blog.csdn.net/Cirzearchenille/article/details/88802534">gitalk配置</a> ; <a href="https://blog.csdn.net/mayuko2012/article/details/60606326">解决HEXO出现ERROR Deployer not found: git的问题</a> ; <a href="https://blog.csdn.net/o_mario_o/article/details/80347863">不买服务器，不买域名，不花一分钱，hexo+github搭建自己的博客</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello-world</title>
+      <link href="2019/04/22/hello-world/"/>
+      <url>2019/04/22/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo示例 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>互联网创业大赛参赛指南</title>
+      <link href="2019/04/03/hu-lian-wang-chuang-ye-da-sai-can-sai-zhi-nan/"/>
+      <url>2019/04/03/hu-lian-wang-chuang-ye-da-sai-can-sai-zhi-nan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="互联网创业大赛参赛指南"><a href="#互联网创业大赛参赛指南" class="headerlink" title="互联网创业大赛参赛指南"></a>互联网创业大赛参赛指南</h1><h3 id="赛前热身"><a href="#赛前热身" class="headerlink" title="赛前热身"></a>赛前热身</h3><hr><ol><li>重点：<strong>商业性</strong> / <strong>经济效应</strong></li><li>比赛的意义：获得职业能力的提升</li></ol><h3 id="参赛准备"><a href="#参赛准备" class="headerlink" title="参赛准备"></a>参赛准备</h3><hr><ul><li>优秀的参赛作品的基本要素<ul><li>好的项目<ul><li>【痛点】符合市场需求（解决<strong>痛点</strong>）</li><li>【尖叫点】创新性 + 科学性（高大上、深奥）</li><li>【引爆点】应用前景，市场能切入<ul><li>应思考<strong>项目如何能切入市场</strong></li><li>例如：手机业（南京大学）、广告业（东南大学）</li></ul></li><li>【想象空间】市场前景</li><li>【战略规划】可持续发展 + <strong>赢利</strong></li></ul></li><li>好的团队</li></ul></li><li>准备阶段需要做什么？<ul><li>找准<strong>市场需求</strong>，客户痛点，从而选择一个好项目</li><li>创业领域选择（三度交集法）<ul><li>高财富</li><li>高擅长</li><li>高兴趣</li></ul></li><li>组建好团队的标准<ul><li>志同道合（有一个共同的目标）</li><li>情投意合（能做到一起去）</li><li>能力匹配（不同领域的人做不同的事）</li><li>【注】团队组建在总分值中有40分（如何考核呢？考核的标准是什么？）<ul><li>基于<strong>项目需求</strong>的人力规划 / 岗位设计</li><li>基于<strong>创业需求</strong>的能力匹配（不同的人对应不同的岗位）</li><li>基于<strong>企业发展规划</strong>的激励设计</li></ul></li></ul></li><li>研发好的产品（好产品的标准是什么？）<ul><li>国际 / 国家专利</li><li>软件著作权</li><li>学术论文</li><li>科研成果鉴定（<em>四川省科技厅</em>负责）</li><li>专业赛事大奖</li><li>使用证明 / 委托开发文件 / 销售合同</li><li>【注】最好有<code>1-2个</code></li></ul></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 互联网+ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>考研数学导学课学习感悟</title>
+      <link href="2019/03/30/kao-yan-shu-xue-dao-xue-ke-xue-xi-gan-wu/"/>
+      <url>2019/03/30/kao-yan-shu-xue-dao-xue-ke-xue-xi-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="考研数学导学课学习感悟"><a href="#考研数学导学课学习感悟" class="headerlink" title="考研数学导学课学习感悟"></a>考研数学导学课学习感悟</h1><h2 id="备考阶段划分"><a href="#备考阶段划分" class="headerlink" title="备考阶段划分"></a>备考阶段划分</h2><hr><ol><li><h4 id="基础阶段"><a href="#基础阶段" class="headerlink" title="基础阶段"></a>基础阶段</h4><ul><li>时间：<code>2018.9.25-2019.7.1</code></li><li>复习内容：定理 + 公式<ul><li>一定要<strong>全面</strong></li></ul></li><li>参考书<ul><li>《数学考试大纲》</li><li>一些教材<ul><li>高等数学(同济第6、7版)</li><li>线性代数<ul><li>同济第6、7版</li><li>清华大学 居易马 编写</li></ul></li><li>概率论(浙江大学 编写)</li></ul></li><li>配套的辅导教材<ul><li>《考研数学基础教程》</li></ul></li></ul></li><li>【附】概念复习时的注意事项<ul><li>语言上能够叙述，并能将其翻译成数学表达式</li><li>了解数学含义、几何意义、物理意义（数1、数2）、经济含义（数3）</li><li>和其他概念间的关系</li><li>对于<strong>概念、公式、定理、法则</strong><ul><li>先记<strong>条件</strong>，再记<strong>结论</strong></li><li>重要的概念，一定要会证明</li></ul></li><li>题型安排<ul><li>例题</li><li>每节课后习题的<strong>1 / 2</strong></li><li>总习题中的所有题</li><li>典型习题</li><li>《基础过关660》上的题</li></ul></li></ul></li></ul></li><li><h4 id="强化阶段"><a href="#强化阶段" class="headerlink" title="强化阶段"></a>强化阶段</h4><ul><li>时间：<code>2019.7-2019.8</code></li><li>参考书：配套讲义</li><li>上课流程：<ul><li>基础知识串讲1小时</li><li>讲解3-5类的题型</li><li>每类题型讲3-5个例题</li><li>讲题的过程：<ul><li><em>切入点 -&gt; 错误 -&gt; 总结</em></li></ul></li></ul></li></ul></li><li><h4 id="模考冲刺阶段"><a href="#模考冲刺阶段" class="headerlink" title="模考冲刺阶段"></a>模考冲刺阶段</h4><ul><li>时间：<code>2019.9.1-2019.12</code></li><li>题型安排<ul><li>暑假期间每类题型对应例题的<strong>1 / 2</strong></li><li>10月初，必须开始做某一类型的<strong>15年以来的真题</strong></li><li>8套模考试卷</li></ul></li><li>参考书<ul><li>《考研数学历年真题解析》</li></ul></li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考研类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>四六级听力训练四步法学习感悟</title>
+      <link href="2019/03/30/si-liu-ji-ting-li-xun-lian-si-bu-fa-xue-xi-gan-wu/"/>
+      <url>2019/03/30/si-liu-ji-ting-li-xun-lian-si-bu-fa-xue-xi-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="四六级听力训练四步法"><a href="#四六级听力训练四步法" class="headerlink" title="四六级听力训练四步法"></a>四六级听力训练四步法</h1><hr><ol><li>做题<ul><li>放音之前留<code>3分钟</code>阅读选项与原文，勾画<strong>动词、名词、形容词、比较级、最高级</strong></li><li>放音时一气呵成，不要停顿</li></ul></li><li>确认答案，查阅词语（<strong>查</strong>）<ul><li>将<strong>选项和原文</strong>的陌生词语全部查出，并积累有关的<strong>同义替换</strong></li></ul></li><li><h3 id="翻译选项-译"><a href="#翻译选项-译" class="headerlink" title="翻译选项(译)"></a>翻译选项(<strong>译</strong>)</h3><ul><li>用<strong>视译</strong>的方式翻译选项和原文，能否明白其含义</li></ul></li><li><h3 id="跟读原文-读"><a href="#跟读原文-读" class="headerlink" title="跟读原文(读)"></a>跟读原文(<strong>读</strong>)</h3><ul><li>放音并跟读<code>3-5遍</code>，模仿并纠正自己的发音</li><li>可以不完全跟上说话者的速度</li></ul></li><li>裸听原文(<strong>听</strong>)<ul><li>在不看原文的情况下，仅凭耳朵就能听懂所有细节</li><li>如果不能听懂全部内容，听懂正确选项对应的答案句即可</li><li>标准：词词清晰</li></ul></li></ol><blockquote><p>附：相信自己一定可以听懂听力！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 英语 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>劳动合同法学习感悟</title>
+      <link href="2019/03/24/lao-dong-he-tong-fa-xue-xi-gan-wu/"/>
+      <url>2019/03/24/lao-dong-he-tong-fa-xue-xi-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="劳动合同法学习感悟"><a href="#劳动合同法学习感悟" class="headerlink" title="劳动合同法学习感悟"></a>劳动合同法学习感悟</h1><hr><ol><li>劳动合同法适用人群：<ul><li>企业</li><li>个体户</li><li>非企业单位</li><li>与劳动者建立劳动关系的单位</li></ul></li><li>劳动规章制度合法有效的条件：经过民主程序公示，并告知劳动者</li><li><strong>工会</strong>的作用：帮助劳动者签订劳动合同，指导用人单位履行劳动合同，维护劳动者合法权益</li><li>用人单位自<strong>用工之日</strong>起就与劳动者建立了劳动关系</li><li>用人单位在建立劳动关系过程中应该建立<strong>职工名册</strong></li><li>用人单位招收劳动者，不能收取劳动者押金</li><li>用人单位应在<strong>用工前 / 用工之日 / 用工之日起一个月内</strong>与劳动者签订劳动合同</li><li>劳动合同的类型<ul><li>固定期限</li><li>无固定期限</li><li>以完成一定任务为期限</li></ul></li><li>订立无固定期限劳动合同的情况：<ul><li>劳动者连续工作满10年</li><li>在企业初次实行劳动合同制 / 国有企业改制 的条件下，劳动者连续工作满10年且距退休不足10年</li><li>连续两次订立劳动合同后的续订</li></ul></li><li>用人单位<strong>满1年</strong>不与劳动者订立书面劳动合同 / <strong>超过1个月且不满1年</strong>，视为已经订立无固定期限劳动合同。后者用人单位在这段时间内须向劳动者每月支付二倍工资</li><li>劳动合同不满3个月，不得约定试用期</li><li>试用期最长不超过6个月</li><li>试用期时间划分：</li></ol><ul><li><code>3个月 &lt;= time &lt; 1年</code> ：1个月</li><li><code>1年 &lt;= time &lt; 3年</code> ：2个月</li><li><code>&gt;= 3年</code> ：6个月</li></ul><ol start="14"><li>试用期工资不得低于劳动合同约定工资的<strong>80%</strong></li><li>用人单位可以将下列人员列为<strong>竞业受限人员</strong>：</li></ol><ul><li>高级管理人员</li><li>高级技术人员</li><li>负有保密义务的人员</li></ul><ol start="16"><li>用人单位可以与劳动者约定由劳动者承担违约金的情况</li></ol><ul><li>用人单位提供培训，并约定服务期</li><li>用人单位与负有保密义务的劳动者签订有竞业限制条款</li></ul><ol start="17"><li>劳动合同无效的情况：</li></ol><ul><li>采用<strong>欺诈、胁迫</strong>的手段</li><li>用人单位免除自己的法定责任，去除劳动者权利</li><li>违反<strong>法律</strong>规定</li></ul><ol start="18"><li>当用人单位发生分立、合并时，原劳动合同继续有效，由<strong>继承原单位权利与义务的新用人单位</strong>继续履行</li><li>劳动者<strong>提前30日</strong>（试用期为提前3天）向用人单位提出书面解除劳动合同，用人单位无需支付经济补偿金</li><li>劳动者患病在医疗期满后不能继续在该单位工作，用人单位应<strong>提前30日书面通知 / 支付1个月工资</strong>后解除劳动合同</li><li>劳动者患病，在医疗期内劳动合同到期，劳动合同则应<strong>延续</strong>到医疗期满后再终止</li><li><strong>经济补偿</strong>支付标准（以工作年限为标准）</li></ol><ul><li><code>&gt;= 1年</code> ：支付1个月工资</li><li><code>6个月 &lt;= time &lt; 1年</code> ：同上</li><li><code>&lt; 6个月</code> ：支付半个月工资</li></ul><ol start="23"><li>劳动者可以不通知用人单位<strong>立即解除劳动合同</strong>的情况</li></ol><ul><li>用人单位违规指挥，危害劳动者人身健康</li><li>用人单位以暴力、非法手段胁迫劳动者进行劳动</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 法律 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MarkDown学习笔记</title>
+      <link href="2019/03/20/markdown-xue-xi-bi-ji/"/>
+      <url>2019/03/20/markdown-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Markdown学习笔记"><a href="#Markdown学习笔记" class="headerlink" title="Markdown学习笔记"></a>Markdown学习笔记</h2><hr><blockquote><p>这是之前我学习Markdown时所记录的关键笔记，写在这里，便于以后查阅</p><footer><strong>Clement-阿五</strong></footer></blockquote><ol><li>文本加粗： <pre><code>**内容**</code></pre></li><li>文本倾斜： <pre><code>_内容_</code></pre></li><li>代码标记 : <pre><code>`内容`</code></pre></li><li>标题： <pre><code># content## content### content#### content##### content###### content【注】h1-h6: #-######</code></pre></li><li>HTML 在 Markdown 中仍然有效</li><li>Markdown 本身无法像 HTML 文档一样在浏览器中打开</li><li>预览 Markdown 文件: Dillinger（<a href="https://dillinger.io/%EF%BC%89">https://dillinger.io/）</a></li><li>删除线： <pre><code>~~content~~</code></pre></li><li>引用文本： <pre><code>&gt; content</code></pre></li><li>引用代码,显示在一个区域：<pre><code>```contentcontent```</code></pre></li><li>创建链接：<pre><code>方式一：[ 要连接的文本 ] ( URL )方式二：[ 要连接的文本 ] [ link ][link] : &lt;https://cn.bing.com&gt; 一般附在文档末尾</code></pre></li><li>创建无序列表：<pre><code>- content- content- content    ...----------------* content* content* content    ...</code></pre></li><li>创建有序列表：<pre><code>1.content2.content3.content    ...</code></pre></li><li>创建嵌套列表：<pre><code>- content   1. content   2. content</code></pre></li><li>任务列表（包含选框的选项）：<pre><code>- [ ] content</code></pre></li><li>创建emoji : <pre><code>:emojicode: </code></pre></li></ol><blockquote><p>具体的emoji代码可见：<a href="https://www.webfx.com/tools/emoji-cheat-sheet/">emoji表情代码</a></p></blockquote><ol start="17"><li>创建一个表：<pre><code>使用 | 分列； 使用 – 将表头与表体分离apple | banana | orange------|--------|-------a | b | c a | s | d q | w | e </code></pre></li></ol><blockquote><p>对齐方式：<br>左对齐 <code>:|</code><br>右对齐 <code>|:</code><br>中对齐 <code>:|:</code></p></blockquote><ol start="18"><li>将通知发送给某个团队 / 组织：<pre><code>@组织名/团队名</code></pre></li></ol><p>[ 测试 ][ link ]<br>[ link ] : <a href="https://cn.bing.com/">https://cn.bing.com</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MarkDown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>收藏的网站整理</title>
+      <link href="2019/03/17/shou-cang-de-wang-zhan-zheng-li/"/>
+      <url>2019/03/17/shou-cang-de-wang-zhan-zheng-li/</url>
+      
+        <content type="html"><![CDATA[<h1 id="收藏网站整理"><a href="#收藏网站整理" class="headerlink" title="收藏网站整理"></a>收藏网站整理</h1><h2 id="Markdown类"><a href="#Markdown类" class="headerlink" title="Markdown类"></a>Markdown类</h2><hr><ul><li><a href="https://guides.github.com/features/mastering-markdown/">Markdown-GitHub官网</a></li><li><a href="https://help.github.com/en/articles/basic-writing-and-formatting-syntax">Github flavored Markdown Syntax</a></li><li><a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Markdown可用到的一些表情符号</a></li><li><a href="https://dillinger.io/">MarkDown在线编辑器</a></li></ul><h2 id="GitHub类"><a href="#GitHub类" class="headerlink" title="GitHub类"></a>GitHub类</h2><hr><ul><li><a href="https://help.github.com/en/articles/connecting-to-github-with-ssh">通过SSH连接Github的注意事项</a></li><li><a href="https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-%E9%85%8D%E7%BD%AE-Git">Git安装后的官方推荐的配置</a></li><li><a href="https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%82%E5%91%BD%E4%BB%A4%E5%92%8C%E9%AB%98%E5%B1%82%E5%91%BD%E4%BB%A4">Git原理讲述</a></li></ul><h2 id="学习类"><a href="#学习类" class="headerlink" title="学习类"></a>学习类</h2><hr><ul><li><a href="http://www.doyoudo.com/">doyoudo</a></li><li><a href="https://linuxsurvival.com/">Linux模拟终端</a></li><li><a href="http://www.wordreference.com/">英语在线词典（多释义）</a></li><li><a href="https://www.futurelearn.com/">在线讲座(欧洲)</a></li><li><a href="http://www.51sjsj.com/">设计师之家</a></li></ul><h2 id="备用搜索引擎类"><a href="#备用搜索引擎类" class="headerlink" title="备用搜索引擎类"></a>备用搜索引擎类</h2><hr><ul><li><a href="https://s.geekbang.org/">程序员的搜索引擎</a></li><li><a href="http://lackar.com/aa/">Anywhere</a></li></ul><h2 id="法律类"><a href="#法律类" class="headerlink" title="法律类"></a>法律类</h2><hr><ul><li><a href="https://www.jufaanli.com/">法律案例</a></li></ul><h2 id="设计类"><a href="#设计类" class="headerlink" title="设计类"></a>设计类</h2><hr><ul><li><a href="http://www.68design.net/cool/">设计界面</a></li><li><a href="http://cool.mfdemo.cn/">设计界面</a></li><li><a href="https://www.blakeallendesign.com/">设计音乐</a></li><li><a href="https://smartmockups.com/">样机下载Smartmockups</a></li><li><a href="https://www.freepik.com/">样机下载Freepik</a></li><li><a href="http://www.51yuansu.com/">觅元素</a></li></ul><h2 id="激活码类"><a href="#激活码类" class="headerlink" title="激活码类"></a>激活码类</h2><hr><ul><li><a href="http://www.youserials.com/">获取激活码_1</a></li><li><a href="https://www.serials.ws/">获取激活码_2</a></li></ul><h2 id="评估类"><a href="#评估类" class="headerlink" title="评估类"></a>评估类</h2><hr><ul><li><a href="http://howmuchtomakeanapp.com/">评估APP价值</a></li></ul><h2 id="在线工具类"><a href="#在线工具类" class="headerlink" title="在线工具类"></a>在线工具类</h2><hr><ul><li><a href="http://www.polaxiong.com/web/0">泼辣修图</a></li><li><a href="https://www.photopea.com/">在线PS</a></li><li><a href="http://www.uupoop.com/">ps在线版 Photoshop在线精简版</a></li><li><a href="https://www.gaoding.com/">在线抠图软件</a></li><li><a href="https://tinypng.com/">压缩图片</a></li><li><a href="https://www.tuhaokuai.com/">图片压缩，在线图片压缩，GIF压缩</a></li><li><a href="https://tool.gifhome.com/">GIF在线压缩</a></li><li><a href="http://gifcompressor.com/zh/">GIF在线压缩2</a></li><li><a href="http://www.screentogif.com/">GIF制作-ScreenToGif</a></li><li><a href="http://www.nicetool.net/app/gif_maker.html">在线gif制作工具</a>  (收费)</li><li><a href="http://xiuxiu.web.meitu.com/">美图秀秀网页版</a></li><li><a href="https://photomosh.com/">故障文字生成器</a></li><li><a href="http://weavesilk.com/">炫光生成器</a></li><li><a href="https://codepen.io/pissang/full/geajpX">梯度波浪生成器</a> (收费！)</li><li><a href="https://codepen.io/Yakudoo/full/rJjOJx">奇幻波浪生成器</a></li><li><a href="https://demo.marpi.pl/biomes/">山脉生成器</a></li><li><a href="https://demo.marpi.pl/">三维动画生成器</a></li><li><a href="https://pissang.github.io/voxelize-image/">层叠样式生成器</a></li><li><a href="https://pissang.github.io/papercut-box-art/">Paper Cut Art Generator</a></li><li><a href="https://wangyasai.github.io/Stars-Emmision/">群星闪烁生成器</a></li><li><a href="http://www.decrooks.com/">David Crooks</a></li><li><a href="http://planetmaker.wthr.us/">行星生成器</a></li><li><a href="https://earth.nullschool.net/">地球环境生成器</a></li><li><a href="https://gradient.shapefactory.co/">渐变生成器Chromatic Gradient Generator</a></li><li><a href="https://codepen.io/tsuhre/full/BYbjyg">炫光生成器</a></li><li><a href="http://www.shejidaren.com/examples/tools/low-poly/">低多边形(Low Poly)在线生成工具</a></li><li><a href="https://www.toptal.com/designers/subtlepatterns/">纹理生成器</a></li><li><a href="http://david.li/fluid/">粒子生成器</a></li><li><a href="https://pixelmap.amcharts.com/">矢量地图生成器</a></li><li><a href="https://www.processon.com/">ProcessOn - 免费在线作图</a></li><li><a href="http://yinzhang.388g.com/">在线印章制作</a></li><li><a href="http://www.zhenhaotv.com/">毛笔字在线生成器</a></li><li><a href="http://zhitu.isux.us/">智图_图片压缩在线工具</a></li><li><a href="https://img.top/">img.top 智能在线图像压缩</a></li><li><a href="https://www.jpeg.io/">图像格式转换</a></li><li><a href="https://www.smartresize.com/zh-cn">在线批量裁剪图片工具</a></li><li><a href="http://www.makepic.com/print.php">个性签名印章工具</a></li><li><a href="https://29a.ch/film-emulator/">在线图片滤镜处理Free Online Analog Film Emulator</a></li><li><a href="https://codebeautify.org/">在线格式转换工具</a></li><li><a href="https://www.designevo.com/">免费logo制作</a></li><li></li></ul><h2 id="图标下载类"><a href="#图标下载类" class="headerlink" title="图标下载类"></a>图标下载类</h2><hr><ul><li><a href="https://iconmonstr.com/">iconmonstr</a></li><li><a href="https://illustrio.com/">illustrio</a> (登陆)</li><li><a href="https://zh-cn.silhouette-ac.com/">免费矢量剪影 | silhouetteAC</a> (收费)</li><li><a href="https://www.flaticon.com/">flaticon</a></li><li><a href="https://www.iconfinder.com/">free and premium vector icons</a></li><li><a href="http://www.stickpng.com/">Free Transparent PNG Images</a></li><li><a href="http://instantlogosearch.com/">Instant Logo Search</a></li><li><a href="http://ico.58pic.com/tubiaodaquan/">图标宝</a></li><li><a href="http://pictogram2.com/">绿色小人图标引擎</a></li><li><a href="http://www.easyicon.net/">EASYICON</a></li></ul><h2 id="图片下载类"><a href="#图片下载类" class="headerlink" title="图片下载类"></a>图片下载类</h2><hr><ul><li><a href="http://spaceengine.org/">Space Engine</a></li><li><a href="https://gratisography.com/">创意图片Gratisography</a></li><li><a href="https://www.ssyer.com/">免费背景图片素材</a></li><li><a href="https://500px.com/">最出色的摄影社区 / 500px</a></li><li><a href="https://duotone.shapefactory.co/">单色图片</a></li><li><a href="https://1x.com/photos">1x - Latest additions</a></li><li><a href="https://www.everypixel.com/">Stock Image Search Engine </a></li><li><a href="https://alpha.wallhaven.cc/">Awesome Wallpapers</a></li><li><a href="https://free3d.com/">3D Models for Free</a></li><li><a href="https://pixabay.com/">Pixabay</a></li><li><a href="http://pngimg.com/">无背景图片下载</a></li></ul><h2 id="地图下载类"><a href="#地图下载类" class="headerlink" title="地图下载类"></a>地图下载类</h2><hr><ul><li><a href="https://freevectormaps.com/">Free Vector Maps</a></li></ul><h2 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h2><hr><ul><li><a href="http://www.richyli.com/tool/loremipsum/">虚假文章生成器</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 优秀网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>挑战杯比赛详情</title>
+      <link href="2019/03/13/tiao-zhan-bei-bi-sai-xiang-qing/"/>
+      <url>2019/03/13/tiao-zhan-bei-bi-sai-xiang-qing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="挑战杯比赛相关问题"><a href="#挑战杯比赛相关问题" class="headerlink" title="挑战杯比赛相关问题"></a>挑战杯比赛相关问题</h1><hr><ol><li>挑战杯（奇年）；创青春（偶年）</li><li>科技制作的分类：<ul><li>A类：投入大</li><li>B类：投入小，如：小发明</li></ul></li><li>时间安排：<ul><li>校赛：10月-次年1月 / 2月</li><li>省赛：5月</li><li>国赛：11月</li></ul></li><li>个人作品：申报人负责的部分在作品的创作中占比60%+</li><li>赛事分组：本科生组、研究生组、博士生组</li><li>评分重点：<ul><li>科技类作品：<ul><li>A类：<ol><li>重大科研项目</li><li>处于国内领先水平</li><li>能支撑社会问题的解决</li><li>未来能大规模生产</li></ol></li><li>B类：<ol><li>实用</li><li>核心技术能延伸到其他领域</li><li>能产生经济效益</li></ol></li></ul></li><li>自然学科论文   (&lt;= 8000)：<ol><li>注意选题</li><li>理论交叉</li><li>对已有理论的科学质疑</li><li>数据 + 图表</li></ol></li><li>社会科学调查报告   (&lt;= 15000)：<ol><li>注意选题 </li><li>选择国家最关注的问题<ul><li>推荐：19大报告、政府工作报告、中央相关文件</li></ul></li><li>研究的领域是国家迫切需要的</li><li>具有新视角</li><li>样本要有代表性（调研要有痕迹）</li></ol></li></ul></li><li>参赛技巧：<ul><li>选题：热点中的难题（如：重大项目的子课题、国家媒体热炒的问题）<ul><li>【注】要有特色、区域产业、区域文化</li></ul></li><li>如何选项目：有用 + <strong>政策</strong>支持 + 能落地 + 能<strong>商业化</strong> + 能扩展 + 有核心优势</li><li>项目命名的原则：<strong>先大</strong>（大领域）<strong>后小</strong>（小对象）</li><li>写文案应以评委为中心</li><li>研究应具有唯一性</li></ul></li><li>失败的原因：<ol><li>内容局限</li><li>相关性研究太多</li><li>样本太小</li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 比赛 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>互联网与商业模式创新学习感悟</title>
+      <link href="2019/03/12/hu-lian-wang-yu-shang-ye-mo-shi-chuang-xin-xue-xi-gan-wu/"/>
+      <url>2019/03/12/hu-lian-wang-yu-shang-ye-mo-shi-chuang-xin-xue-xi-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="互联网-与商业模式创新学习感悟"><a href="#互联网-与商业模式创新学习感悟" class="headerlink" title="互联网+与商业模式创新学习感悟"></a>互联网+与商业模式创新学习感悟</h1><hr><ol><li>电子商务的<strong>三大模式</strong>:<ul><li>B2B</li><li>B2C</li><li>C2C</li></ul></li><li>新浪的收入的70%来自于广告</li><li><strong>技术</strong>在不断地迎合市场的<strong>需求</strong></li><li>按照目前的趋势，电子商务的市场仍会继续向前发展</li><li>电子商务的<strong>特点</strong>：<ul><li>全球化</li><li>要求企业提升其生产规模</li><li>市场规模不可估量</li><li>快速、效率高</li></ul></li><li>在传统企业中，电子商务部取缔了市场营销部</li><li>电子商务的定义：通过互联网等信息网络<strong>销售商品</strong>和<strong>提供服务</strong>的经营活动</li><li>电子商务生态圈：核心层-&gt;衍生层-&gt;服务层</li><li><strong>O2O</strong>(online to off): 线上转变到线下，线下转变到线上</li><li>线上 + 线下一起发展，比较成熟的企业是<strong>京东</strong></li><li>传统企业依据<strong>自身的优势</strong>打造自己的电子商务模式，有可能打破传统电商平台的垄断</li><li>市场 = 人数 + 购买力</li><li>目前，国内90%+的网民都是移动互联网用户</li><li>CNNIC每半年都会出一份中国的互联网报告</li><li><strong>短视频</strong>已经成为电商界最重要的引流方式之一</li><li><code>互联网+</code>的定义：以互联网为主导，去影响其他的产业</li><li><strong>产业互联网</strong>：（产业 + 互联网）互联网跟着传统企业走</li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 互联网+ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网络推广实战学习感悟</title>
+      <link href="2019/03/11/wang-luo-tui-guang-shi-zhan-xue-xi-gan-wu/"/>
+      <url>2019/03/11/wang-luo-tui-guang-shi-zhan-xue-xi-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="网络推广实战学习感悟"><a href="#网络推广实战学习感悟" class="headerlink" title="网络推广实战学习感悟"></a>网络推广实战学习感悟</h1><hr><ol><li>任何自然界的事物都遵循正态分布，除去前面的10%、后面的10%，中间80%占绝大多数，这也称作<strong>帕累托定理</strong>（二八法则）</li><li>推广的时候要注意我们的<strong>消费群体</strong>喜欢什么<em>样式</em></li><li>不同的群体一定有不同的需求</li><li>推广的目的：激发购物者的<strong>欲望</strong>，而不是打压它</li><li>欲望的深渊是没有底线的</li><li>不同的渠道有不同的推广方式</li><li>根据不同的消费者的购物行为确定推广方案</li><li>营销推广要说什么？<ul><li><strong>品牌信息</strong></li><li><strong>产品信息</strong></li><li>活动信息</li><li>关系维护（评价 + 维护）</li></ul></li><li>一个产品，要针对不同的消费群体，才能激发起他们的相应的购买欲望</li><li>营销推广的途径</li></ol><ul><li>线上推广（微博、微信、博客、新闻、BBS、SNS、百科、视频推广、网络广告推广、电子邮件营销、淘宝推广）</li></ul><ol start="11"><li>营销方式：事件、品牌、活动</li><li>常见的推广方法：<ul><li>搜索引擎</li><li>论坛</li><li>博客</li><li>网络广告</li><li>网络的新闻和事件</li></ul></li><li><strong>微信推广</strong>的优势：<ul><li>熟人网络，小用户群体</li><li>随时随地都能提供信息服务</li><li>营销和服务定位精准</li><li>富媒体，便于分享</li><li>微信公众号：方便、快捷</li></ul></li><li>推广方案的5要素：</li></ol><ul><li>推广目的</li><li>推广方法</li><li>推广预算</li><li>人员安排</li><li>预期时间</li></ul><ol start="15"><li>定位：产品定位 + 用户定位</li><li>推广的借助点：</li></ol><ul><li>借势3.15 </li><li>直播、关注度</li><li>提升品牌形象</li><li>占领行业高端</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 互联网+ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>日常阅读好句收集</title>
+      <link href="2019/03/10/ri-chang-yue-du-hao-ju-shou-ji/"/>
+      <url>2019/03/10/ri-chang-yue-du-hao-ju-shou-ji/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>如果你想拥有你从未有过的东西，那么你必须去做你从未做过的事情。</p><footer><strong>佩塞斯基安</strong></footer></blockquote><ol><li><strong>尊重</strong>身体释放情绪的节奏。</li><li><strong>示弱</strong>是情感关系里的润滑剂</li><li><strong>请求</strong>是给对方机会表达他的爱</li><li>一个请求就是送出来的一份礼物，给了自己和对方贡献自己美好的机会。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 优美语句 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>哈佛学霸的学习方法总结</title>
+      <link href="2019/03/10/ha-fo-xue-ba-de-xue-xi-fang-fa-zong-jie/"/>
+      <url>2019/03/10/ha-fo-xue-ba-de-xue-xi-fang-fa-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<h1 id="哈佛学霸的学习方法总结"><a href="#哈佛学霸的学习方法总结" class="headerlink" title="哈佛学霸的学习方法总结"></a>哈佛学霸的学习方法总结</h1><h3 id="记忆篇"><a href="#记忆篇" class="headerlink" title="记忆篇"></a>记忆篇</h3><hr><ol><li>方法：<ul><li>缩略词记忆</li><li>联想记忆</li><li>故事记忆<h3 id="笔记篇"><a href="#笔记篇" class="headerlink" title="笔记篇"></a>笔记篇</h3></li></ul></li></ol><hr><ul><li>康奈尔笔记法（笔记示意如图）</li><li>关键词笔记法（笔记示意如图）<h3 id="写作篇"><a href="#写作篇" class="headerlink" title="写作篇"></a>写作篇</h3></li></ul><hr><ul><li>一边阅读，一边思考</li><li>建立<strong>素材与灵感本</strong>，将每天时刻产生的灵感都记录下来</li><li>定期、定时、定字数、定主题地经常练笔</li><li>避免流水账的方法：在下笔前确定文章<strong>中心思想</strong></li><li>口头作文：边听边说有助于积累写作素材</li><li>用手机录下<strong>此时此刻自己想说的话</strong>，都可以作为后期写作的素材</li><li>提高文章的<strong>质量</strong>：<ul><li>可信度（事实、数据、名人名言） </li><li>情感 </li><li>逻辑</li></ul></li><li><strong>提纲</strong>的内容：<ul><li>题目 </li><li>主要内容和中心思想 </li><li>文章结构如何安排？</li></ul></li></ul><h3 id="科学减压篇"><a href="#科学减压篇" class="headerlink" title="科学减压篇"></a>科学减压篇</h3><hr><ul><li>面对压力，给予自己积极的心理暗示</li><li>多说鼓励自己的话</li><li>将一些积极心理暗示的话用彩色便签纸贴在桌子、柜子上提醒自己</li><li>熬夜前一定要做以下这些准备<ol><li>600ml的温开水</li><li>苹果/香蕉</li><li>积极的暗示</li></ol></li></ul><h3 id="沟通篇"><a href="#沟通篇" class="headerlink" title="沟通篇"></a>沟通篇</h3><hr><ul><li>如果连与老师沟通的桥梁都不去建立，那么就会阻断老师了解你的途径</li><li><strong>切记：老师只是帮助你提高成绩的工具，扮演着提高自己成绩的角色</strong></li><li>问老师问题时要准备以下这些东西：<ol><li>小本子<ul><li>自己的疑惑（不懂的问题 + 知识点 + 逻辑混乱的地方 + 问题来源）</li><li>老师的解答（需要用到的知识点 + 解题逻辑）</li></ul></li><li>小凳子</li><li>一支笔</li></ol></li><li>问完问题后，请老师评估自己，看自己还有哪些知识盲点没有掌握</li></ul><h3 id="课前预习和课后复习篇"><a href="#课前预习和课后复习篇" class="headerlink" title="课前预习和课后复习篇"></a>课前预习和课后复习篇</h3><hr><ul><li>预习在做作业和复习之后进行，因为新知识是旧知识的延续</li><li>每次预习在<strong>15分钟内</strong></li><li>复习分4轮：<ol><li>小复习（每堂课后）</li><li>中复习（每周）</li><li>大复习（每月）</li><li>考前复习</li></ol></li><li>复习要准备的东西<ol><li>错题本</li><li>习题</li><li>之前的真题 + 模拟题</li></ol></li></ul><h3 id="逻辑思维篇"><a href="#逻辑思维篇" class="headerlink" title="逻辑思维篇"></a>逻辑思维篇</h3><hr><ol><li>成绩差距的背后是每个知识点隐藏的思维方式</li><li>培养逻辑思维的方法：<ul><li>鱼骨图分析法<ol><li>核心：明确问题是什么？原因是什么？目标是什么？</li><li>方法：问题作为<strong>鱼尾</strong>，原因作为<strong>鱼骨</strong>，目标作为<strong>鱼头</strong></li></ol></li><li>麦肯锡7步分析法：<ol><li>步骤：问题是什么？–&gt; 分析问题 –&gt; 去除非关键的问题 –&gt; 制定工作计划 –&gt; 开始分析 –&gt; 解读分析结果 –&gt; 总结</li></ol></li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课外学习类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习方法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python常见问题汇总</title>
+      <link href="2019/03/10/python-chang-jian-wen-ti-hui-zong/"/>
+      <url>2019/03/10/python-chang-jian-wen-ti-hui-zong/</url>
+      
+        <content type="html"><![CDATA[<h2 id="python常见问题汇总"><a href="#python常见问题汇总" class="headerlink" title="python常见问题汇总"></a>python常见问题汇总</h2><hr><ul><li>numpy中的两种矩阵乘法<ol><li>np.multiply()和a * b：对应元素相乘</li><li>np.dot(a, b)：矩阵乘法</li></ol></li><li>为矩阵添加一列值：使用**np.column_stack(a, b)**这个函数，让两个矩阵各取第一个组成新矩阵的一行</li><li>np.transpose()：高阶矩阵的转置</li><li>np.row_stack((a, b))：将a作为第一行，b作为第二行</li><li>np.ones((a,b)):生成a x b的矩阵</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>R语言学习心得</title>
+      <link href="2019/03/10/r-yu-yan-xue-xi-xin-de/"/>
+      <url>2019/03/10/r-yu-yan-xue-xi-xin-de/</url>
+      
+        <content type="html"><![CDATA[<h1 id="R语言学习心得"><a href="#R语言学习心得" class="headerlink" title="R语言学习心得"></a>R语言学习心得</h1><h2 id="包的使用"><a href="#包的使用" class="headerlink" title="包的使用"></a>包的使用</h2><hr><ol><li>安装包的方式：<ul><li>GUI安装</li><li>使用命令install.package(“包名”)</li></ul></li><li>包的卸载：remove.package(“包名”)</li><li>包的加载：<ul><li>library（包名）</li><li>require（包名）：成功时返回true，失败时返回false<ul><li>require中可以开启quietly参数，隐藏加载时的提示信息</li></ul></li><li>【注】有无引号无区别</li></ul></li><li>取消包的加载：<ul><li>GUI界面清除该包前的复选框</li><li>detach（”package:包名”）</li></ul></li><li>如果加载的两个包中，有同名的函数，若不指定是哪个包中的，则默认该函数是最后一个被加载的包中的函数</li><li>使用**::**指定该函数是在哪个包中</li><li>查看当前加载的包：search()</li></ol><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><hr><ol><li>**&gt;**：命令提示符</li><li>变量的赋值的三种方式：<ul><li><strong>&lt;-</strong>  （<strong>推荐！</strong>）</li><li><strong>=</strong></li><li><strong>assign(“变量名”，变量值)</strong></li></ul></li><li>变量命名规则：数字 / 字母 / 句号 / 下划线<ul><li>必须用字母开头</li></ul></li><li>remove(变量名), 简写rm()</li><li>gc(): 用于释放操作系统不同的存储空间，回收垃圾</li><li>R语言会自动回收垃圾</li><li>R语言<strong>区分大小写</strong></li><li>R语言的数据类型<ul><li>数值型（正、负的整数和小数）<ul><li>这里有一个<strong>整数型</strong>，在整数后加一个<strong>L</strong>，以和数值进行区分</li></ul></li><li>字符型<ul><li>字符型变量：输出时有引号</li><li>因子型变量：输出时无引号，还有一个水平数（不重复的元素）<ul><li>levels按<strong>字典序</strong>排列</li></ul></li><li>获取字符 / 数值的长度使用<strong>nchar(变量)</strong></li></ul></li><li>日期型<ul><li>Date:存储日期</li><li>POSIXct:存储日期和时间</li><li>lubrate 和 chron包处理日期时间上很方便</li></ul></li><li>逻辑型</li></ul></li><li>判断类型用<strong>is</strong>,转换类型用<strong>as</strong></li><li>向量的元素都是同一类型</li><li>对向量的操作会自动应用到向量的每一个分量</li><li>创建向量的方式是combine（简写c）或者 x:y (生成[x,y]之间的数字)</li><li>当处理两个不等长的向量时，较短的向量会循环补齐（循环重复），但前提是长向量的长度是短向量的整数倍，否则会有<strong>警告</strong></li><li>注释的方法：行首前加 <strong>#</strong></li><li>all():检查所有元素是否全为true；any():检查所有元素中至少一个为true</li><li>获取向量中的元素用<strong>变量名[序号]</strong></li></ol><ul><li>注：序号还可以用向量表示；序号从<strong>1</strong>开始</li></ul><ol start="17"><li>**names(变量名)**：查看或分配该变量中元素的名字</li><li>查看函数的帮助文档：<code>? 函数名</code></li><li>查看运算符的帮助文档：<code>? '运算符'</code></li><li><code>apropos("函数名称的一部分")</code>：用来查找函数</li><li>两种缺失数据：</li></ol><ul><li>NA：要存储</li><li>NULL：不存储</li></ul><ol start="22"><li><strong>data.frame</strong>由向量组成</li><li>nrow():获取行数；ncol():获取列数；dim():获取行数和列数</li><li>list():创建列表，元素可以是数值、字符、数据框、列表</li><li>利用vector（mode=”list”, length=?）创建具有一定长度的空列表</li><li>通过<code>[[序号]]</code>访问列表中的一个元素</li><li>矩阵做加、减、乘、除运算，都是将对应元素做运算</li><li>矩阵乘（%*%）</li><li><strong>rownames,colnames,names</strong>适用于矩阵、数据框，其中names = colnames</li><li>letters和LETTERS：存放小写和大写字母的列表</li><li>t():矩阵的转置</li><li>数组的创建：</li><li>矩阵元素默认是按照<strong>列</strong>排列的</li></ol><h2 id="数据的导入"><a href="#数据的导入" class="headerlink" title="数据的导入"></a>数据的导入</h2><hr><ol><li>导入CSV文件<ul><li>CSV文件：是一个以<code>,</code>作为分隔符的文本文件</li><li>使用read.table()函数，返回一个数据框</li><li>使用方法：</li><li>stringAsFactors参数（默认为TRUE），开启后会自动将字符型变量转为因子型变量，也可用于数据框的创建。设置为FALSE会减少运算时间</li><li>若单元格中已经存在分隔符，应该使用<code>read.csv2()</code>函数读入数据</li></ul></li><li>导入数据库数据<ul><li>安装RODBC包</li><li>使用步骤：<ul><li>使用odbcConnect()创建一个连接</li><li>使用sqlQuery(连接对象，”sql语句”), 返回一个数据框</li><li>【注】一次只能打开一个连接，打开第二个时，第一个会退出</li></ul></li></ul></li><li>.RData文件<ul><li>创建文件：<strong>save(要保存的对象，file=位置)</strong></li><li>加载文件：<strong>load(“文件的路径”)</strong></li></ul></li><li>使用在包中的数据：在引入包后，使用**data(数据对象名)**导入数据<ul><li>【注】data():会返回可用的数据列表</li></ul></li><li>导入网页表格中的数据<ul><li>使用readHTMLTable(url, header=?, which=?, stringAsFactors=?)</li><li>【注】其中：which指定读取哪个表格</li></ul></li></ol><h2 id="问题汇总"><a href="#问题汇总" class="headerlink" title="问题汇总"></a>问题汇总</h2><hr><ol><li>数据框取子集：<strong>subset</strong>(data.frame, data.frame$columnName operator “expression”)</li><li>写CSV文件：write.csv(data.frame, “fileName”)</li><li>为矩阵赋行名：<strong>rownames()</strong>; 赋列名：<strong>colnames()</strong></li><li>R语言对大小写敏感</li><li>删除变量就是将其赋值为NULL</li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> R语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数码摄影与后期制作学习心得</title>
+      <link href="2019/03/10/shu-ma-she-ying-yu-hou-qi-zhi-zuo-xue-xi-xin-de/"/>
+      <url>2019/03/10/shu-ma-she-ying-yu-hou-qi-zhi-zuo-xue-xi-xin-de/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Photoshop基本操作"><a href="#Photoshop基本操作" class="headerlink" title="Photoshop基本操作"></a>Photoshop基本操作</h2><hr><ol><li>适用于打印的像素：300px; 适用于电脑显示的像素：72px</li><li>选区后，右键点击“<strong>变换选区</strong>”，修改选区大小</li><li><strong>Ctrl+J</strong> = Ctrl+C + Ctrl+V(需要手动新建图层)</li><li>快速调整颜色的方法<ul><li>使用<strong>套索工具</strong>框选物体，打开“<strong>色相/饱和度</strong>”对话框（Ctrl+U），调整色相、饱和度、明度</li></ul></li><li>取消选区（Ctrl+D）</li><li>影响魔术棒选区的因素：<strong>容差</strong>和<strong>连续</strong></li><li>容差值越大，选择的相似区域也就越多</li><li>按<strong>中括号键</strong>可以放大/缩小笔触</li><li>反选（Ctrl+shift+I）</li><li>使用通道技术抠出发丝：</li></ol><ul><li>先选择一个黑白分明的通道</li><li>用<strong>魔术棒</strong>选择背景</li><li>去掉头发边缘部分</li><li>反选，选框选上了人物</li><li>人物填充上黑色</li><li>反向，背景变成黑色，人物和发丝变成白色</li><li>在框选发丝，使用<strong>曲线 / 色阶</strong>工具让发丝变白<ul><li>因为载入通道选区会选择白色的部分</li></ul></li><li>点击<strong>载入通道选区</strong>，即完成选区选择</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 专业类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 摄影 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>半月板损伤康复训练法</title>
+      <link href="2019/03/10/ban-yue-ban-sun-shang-kang-fu-xun-lian-fa/"/>
+      <url>2019/03/10/ban-yue-ban-sun-shang-kang-fu-xun-lian-fa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="半月板损伤康复训练—学习心得"><a href="#半月板损伤康复训练—学习心得" class="headerlink" title="半月板损伤康复训练—学习心得"></a>半月板损伤康复训练—学习心得</h2><hr><ol><li>坚持每天两次用热盐水热敷膝盖20分钟，促进膝盖周围的血液循环</li><li>锻炼股四头肌，方法是：坐位抬腿（身体坐直，然后把腿水平抬起，脚尖上钩，保持15秒，放下休息15秒后，再重复此动作，一天做30-50组）</li><li>单膝站立，俯身摸物</li><li>每天按摩膝盖周围的穴位<ul><li>揉痛点，用食指、中指揉痛点由轻至重20次，由重至轻20次。促进痛点炎症吸收</li><li>犊鼻穴：外侧凹陷处</li><li>膝眼穴（两个，分内外）：上面的骨头的凹陷处</li><li>委中穴：膝盖里侧横纹的中点<ul><li>【注】这3个增加关节内血液供应和润滑液的分泌</li></ul></li><li>血海穴：五指按住膝盖，大拇指下方为血海穴</li><li>梁丘穴：膝盖骨右侧隔3个手指的上方<ul><li>【注】这2个穴位增加股四头肌血液供应</li></ul></li><li>【注】各穴位每天按揉1分钟</li></ul></li><li>半月板相应的论文文献：<ul><li><a href="http://www.lib.cuit.edu.cn/asset/detail.aspx?id=20410495584">论文1</a></li><li><a href="http://www.lib.cuit.edu.cn/asset/detail.aspx?id=20422998436">论文2</a></li><li><a href="http://www.lib.cuit.edu.cn/asset/detail.aspx?id=20425849385">论文3</a></li></ul></li></ol><blockquote><p>作者：Clement-阿五</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 医学类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 半月板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HBase学习心得</title>
+      <link href="2019/03/10/hbase-xue-xi-xin-de/"/>
+      <url>2019/03/10/hbase-xue-xi-xin-de/</url>
+      
+        <content type="html"><![CDATA[<h2 id="HBase学习心得"><a href="#HBase学习心得" class="headerlink" title="HBase学习心得"></a>HBase学习心得</h2><hr><ol><li>HBase表的一个单元格默认只有一个版本，修改单元格的内容后，之前的内容版本会被打上删除标记，此时不会真正的被删除，在<strong>region合并</strong>时才会真正地被删除</li><li>删除表时要先禁用表</li><li><strong>alter表</strong>时可以不禁用表，但推荐禁用表，因为安全性，防止多个人同时在修改 / 查看表</li><li>期末要考的过滤器部分：<ul><li>valuefilter的那些值</li><li>多个filter的联合使用</li><li>Qualiferfilter</li><li>Familyfilter</li><li>Rowfilter</li></ul></li><li>hbase查出的结果集是一个个的单元格，一行就是一个单元格</li><li>[STARTROW , STOPROW)</li><li>出现在<strong>过滤器</strong>中的一些符号：<ul><li>运算符（=, &gt;, &gt;=, &lt;, &lt;=, !=）</li><li>运算器<ul><li>binary:全匹配</li><li>substring：取字串</li><li>binaryPrefix：匹配前缀</li><li>bit: 按位进行或 / 异或进行匹配</li><li>Regex：正则表达式进行匹配</li></ul></li></ul></li><li>ValueFilter(=,’substring:111’)：筛选出单元格值包含111的单元格</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HBase </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Flutter安装心得</title>
+      <link href="2019/03/10/flutter-an-zhuang-xin-de/"/>
+      <url>2019/03/10/flutter-an-zhuang-xin-de/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Flutter安装心得"><a href="#Flutter安装心得" class="headerlink" title="Flutter安装心得"></a>Flutter安装心得</h2><hr><ol><li><p>刚开始从<a href="https://flutterchina.club/">flutter中文官网</a>上提供的下载方式下载flutter安装包，运行flutter控制台报错，后来直接克隆<a href="https://github.com/flutter/flutter">flutter的GitHub仓库</a>就没问题了</p></li><li><p>安装Android SDK时建议到<a href="https://www.androiddevtools.cn/">Android中文网站</a>下载<strong>Android Studio</strong>和<strong>Android SDK</strong></p><blockquote><p>参考教程：<a href="https://blog.csdn.net/qq_36577136/article/details/80632674">2018年Android SDK下载安装及配置教程</a></p></blockquote></li><li><p>安装SDK时发现**inter x86 emulator accelerator(HAXM installer)**这个包无法安装，提示不能在这台电脑上编译，后来在<a href="https://github.com/intel/haxm/releases">Intel的GitHub仓库</a>里找到对应的版本下载并手动安装</p><blockquote><p>参考教程：<a href="https://blog.csdn.net/swimming_in_IT_/article/details/77773999">inter x86 emulator accelerator</a><br><a href="https://blog.csdn.net/Adonis_D_Gogh/article/details/76694212">HAXM installer NOT compatible with windows 的解决方法</a></p></blockquote></li><li><p>装好SDK后，运行<strong>flutter doctor</strong>又提示<em>安卓许可证无法获取</em>，建议更新SDK。更新时提示<strong>Failed to move away or delete existing target file E:\androidSDK\sdk\tools</strong>,又更改tools目录的名字，改为tool，再次运行<strong>sdkmanager –update</strong>命令，出现<em>done</em>之后，将tools目录的内容拷贝到tool目录并选择全部替换，最后将tool目录名改成tools，再执行命令<strong>flutter doctor –android-licenses</strong>,一路的y</p><blockquote><p>参考教程：<br><a href="https://www.jianshu.com/p/d2a0a1c39728">我的Flutter初体验——如何成功配置</a><br><a href="https://blog.csdn.net/liy010/article/details/82078484">配置flutter 遇到的问题及解决办法</a></p></blockquote><blockquote><p>作者：Clement-阿五</p></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 配置类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Flutter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>考研英语导学课</title>
+      <link href="2019/03/07/kao-yan-ying-yu-dao-xue-ke/"/>
+      <url>2019/03/07/kao-yan-ying-yu-dao-xue-ke/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><ol><li>分数是75+的学生在研究生期间可以免修英语</li><li>复习的重心：阅读（40）+ 写作（35）</li><li>现阶段做94-05年的真题</li><li>单词（5500）的等级<ul><li>超纲词（300-500）</li><li>核心词（4000）</li><li>基础词（1000）：P340+ （一个月内)</li></ul></li><li>注意<strong>熟词生义</strong></li><li>记单词可以采用<strong>引申记忆</strong></li><li>记单词分3遍：<ul><li>第一遍：使用<strong>词根</strong> + <strong>词缀</strong></li><li>第二遍：记同/近义词</li><li>第三遍：在阅读中记单词</li></ul></li><li>复习时间规划：<ul><li>基础阶段（现在-19.06）<ul><li>复习内容：词汇 + 语法 + 长难句</li></ul></li><li>强化阶段（19.07-19.08）<ul><li>复习内容：阅读技巧</li></ul></li><li>巩固阶段（19.09-19.10）<ul><li>复习内容：阅读 + 翻译 + 写作</li></ul></li><li>冲刺阶段（19.11-19.12）</li></ul></li><li>前缀定方向，后缀定词性</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 考研类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 英语 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>每日Java学习_002</title>
+      <link href="2019/02/19/mei-ri-java-xue-xi-002/"/>
+      <url>2019/02/19/mei-ri-java-xue-xi-002/</url>
+      
+        <content type="html"><![CDATA[<h1 id="cookie、Session、Token的辨析"><a href="#cookie、Session、Token的辨析" class="headerlink" title="cookie、Session、Token的辨析"></a>cookie、Session、Token的辨析</h1><ul><li><p>Cookie</p><ol><li>定义：是存储在用户计算机浏览器目录上用来保持<strong>Web浏览状态</strong>的文本文件。</li><li>作用：识别用户的唯一身份</li><li>时效性：有非持久性性Cookie（有一个规定时间，保存在内存中，关闭浏览器消失），也有持久性Cookie（保存在硬盘中，关闭浏览器后不消失）</li><li>使用限制：在第一次Http请求时就要进行设置</li><li>执行流程图：</li><li>【推荐】<strong>OKHttp框架</strong>：它会在创建OKHttpClient实例时，设置CookieJar / 拦截器<em>自动</em>管理Cookie<blockquote><p><code> 一个浏览器最多创建300个Cookie，每个不超过4KB。 一个Web站点最多创建20个Cookie</code></p></blockquote></li></ol></li><li><p>Session</p><ol><li>定义：在服务器端生成并保存，用于标志客户端连接的一种文件，在一次Http请求时会发给客户端，保存为临时性Cookie。在第二次Http请求时携带上这个Cookie，与服务器端的做比对，就可以解决Http协议的无连接问题了</li></ol></li><li><p>Token（令牌）</p><ol><li>定义：用户身份验证的方式</li><li>组成：uid + time + sign</li><li>使用规则：在第一次登陆成功后，服务器端会生成一个Token，并在一次Http请求中发给客户端，保存在客户端中。当客户端再次请求时，将保存在本地的Token发给服务器，与服务器的Token进行比对。此时会有3种结果<ul><li>相同：保持登陆状态</li><li>没有：未登陆成功</li><li>不同：登陆失效了</li></ul></li></ol></li></ul><img src="/2019/02/19/mei-ri-java-xue-xi-002/2.jpg" class=""><blockquote><p>作者：Clement-阿五 </p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>每日Java学习_001</title>
+      <link href="2019/02/18/mei-ri-java-xue-xi-001/"/>
+      <url>2019/02/18/mei-ri-java-xue-xi-001/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Intelli的高效使用——模板补全"><a href="#Intelli的高效使用——模板补全" class="headerlink" title="Intelli的高效使用——模板补全"></a>Intelli的高效使用——模板补全</h1><blockquote><p><code>所有快捷方式的格式均为标识符.xxx（xxx可由后面的单词替换 )</code></p></blockquote><ul><li><p><strong>var</strong>快速写完声明变量语句</p></li><li><p><strong>null</strong>快速写完判空语句</p></li><li><p><strong>notnull</strong>快速写完非判空语句</p></li><li><p><strong>nn</strong>(同notnull)</p></li><li><p><strong>for</strong>快速生成循环语句（foreach格式）</p></li><li><p><strong>fori</strong>快速生成循环语句（for经典语句）</p></li><li><p><strong>not</strong>快速生成取反语句</p></li><li><p><strong>if</strong>快速生成判断语句<br><code>注意：使用**if**的格式：条件.if</code></p></li><li><p><strong>cast</strong>快速生成强制转换语句</p></li><li><p><strong>return</strong>快速生成返回值语句</p></li></ul><img src="/2019/02/18/mei-ri-java-xue-xi-001/1.jpg" class=""><blockquote><p>作者：Clement-阿五 </p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件开发类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
