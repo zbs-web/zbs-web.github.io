@@ -10,14 +10,19 @@
 Clement-阿五
 
 
-文本加粗： **内容**
+文本加粗：
+ **内容**
 	
-文本倾斜： _内容_
+ 示例文本
+
+文本倾斜：
+ _内容_
 	
-代码标记 : `内容`
-	
-标题： # content
-#">
+ 示例文本
+
+代码标记 :
+ `内容`
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -421,7 +426,7 @@ Clement-阿五
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        296
+                        455
                     </div>
                     
 
@@ -449,13 +454,23 @@ Clement-阿五
 <footer><strong>Clement-阿五</strong></footer></blockquote>
 
 <ol>
-<li>文本加粗： <pre><code>**内容**
-	</code></pre></li>
-<li>文本倾斜： <pre><code>_内容_
-	</code></pre></li>
-<li>代码标记 : <pre><code>`内容`
-	</code></pre></li>
-<li>标题： <pre><code># content
+<li><p>文本加粗：</p>
+ <pre><code>**内容**
+	</code></pre>
+<p> <strong>示例文本</strong></p>
+</li>
+<li><p>文本倾斜：</p>
+ <pre><code>_内容_
+	</code></pre>
+<p> <em>示例文本</em></p>
+</li>
+<li><p>代码标记 :</p>
+ <pre><code>`内容`
+	</code></pre>
+<p> <code>示例文本</code></p>
+</li>
+<li><p>标题：</p>
+ <pre><code># content
 ## content
 ### content
 #### content
@@ -463,27 +478,50 @@ Clement-阿五
 ###### content
 
 【注】h1-h6: #-######
-	</code></pre></li>
-<li>HTML 在 Markdown 中仍然有效</li>
-<li>Markdown 本身无法像 HTML 文档一样在浏览器中打开</li>
-<li>预览 Markdown 文件: Dillinger（<a target="_blank" rel="noopener" href="https://dillinger.io/%EF%BC%89">https://dillinger.io/）</a></li>
-<li>删除线： <pre><code>~~content~~
-	</code></pre></li>
-<li>引用文本： <pre><code>&gt; content
-	</code></pre></li>
-<li>引用代码,显示在一个区域：<pre><code>```
+	</code></pre>
+<h1 id="示例标题1"><a href="#示例标题1" class="headerlink" title="示例标题1"></a>示例标题1</h1><h2 id="示例标题2"><a href="#示例标题2" class="headerlink" title="示例标题2"></a>示例标题2</h2><h3 id="示例标题3"><a href="#示例标题3" class="headerlink" title="示例标题3"></a>示例标题3</h3><h4 id="示例标题4"><a href="#示例标题4" class="headerlink" title="示例标题4"></a>示例标题4</h4><h5 id="示例标题5"><a href="#示例标题5" class="headerlink" title="示例标题5"></a>示例标题5</h5><h6 id="示例标题6"><a href="#示例标题6" class="headerlink" title="示例标题6"></a>示例标题6</h6></li>
+<li><p>HTML 在 Markdown 中仍然有效</p>
+</li>
+<li><p>Markdown 本身无法像 HTML 文档一样在浏览器中打开</p>
+</li>
+<li><p>预览 Markdown 文件: <a target="_blank" rel="noopener" href="https://dillinger.io/">Dillinger</a></p>
+</li>
+<li><p>删除线：</p>
+ <pre><code>~~content~~
+	</code></pre>
+<p> <del>示例文本</del></p>
+</li>
+<li><p>引用文本：</p>
+ <pre><code>&gt; content
+	</code></pre>
+<blockquote>
+<p>示例文本</p>
+</blockquote>
+</li>
+<li><p>引用代码,显示在一个区域：</p>
+<pre><code>```
 content
 content
 ```
-	</code></pre></li>
-<li>创建链接：<pre><code>方式一：
+	</code></pre>
+<pre><code>示例文本
+示例文本
+示例文本
+</code></pre>
+</li>
+<li><p>创建链接：</p>
+<pre><code>方式一：
 [ 要连接的文本 ] ( URL )
 
 方式二：
 [ 要连接的文本 ] [ link ]
-[link] : &lt;https://cn.bing.com&gt; 一般附在文档末尾
-	</code></pre></li>
-<li>创建无序列表：<pre><code>- content
+[link] : &lt;https://cn.bing.com&gt; 一般附在文档末尾 （暂不支持）
+	</code></pre>
+
+<p><a target="_blank" rel="noopener" href="https://cn.bing.com/">示例链接1</a><br>[示例链接2][link2]</p>
+</li>
+<li><p>创建无序列表：</p>
+<pre><code>- content
 - content
 - content
     .
@@ -499,30 +537,66 @@ content
 	.
 	.
 
-	</code></pre></li>
-<li>创建有序列表：<pre><code>1.content
+	</code></pre>
+<ul>
+<li>示例文本</li>
+<li>示例文本</li>
+</ul>
+<hr>
+<ul>
+<li>示例文本</li>
+<li>示例文本</li>
+</ul>
+</li>
+<li><p>创建有序列表：</p>
+<pre><code>1.content
 2.content
 3.content
     .
 	.
 	.
-	</code></pre></li>
-<li>创建嵌套列表：<pre><code>- content
+	</code></pre>
+<ol>
+<li>示例文本</li>
+<li>示例文本</li>
+</ol>
+</li>
+<li><p>创建嵌套列表：</p>
+<pre><code>- content
    1. content
    2. content
-	</code></pre></li>
-<li>任务列表（包含选框的选项）：<pre><code>- [ ] content
-	</code></pre></li>
-<li>创建emoji : <pre><code>:emojicode: 
 	</code></pre>
-
+<ul>
+<li>示例文本<ol>
+<li>二级列表</li>
+<li>二级列表<ul>
+<li>三级列表<ul>
+<li>四级列表</li>
+</ul>
+</li>
+</ul>
 </li>
 </ol>
+</li>
+</ul>
+</li>
+<li><p>任务列表（包含选框的选项）：</p>
+<pre><code>- [ ] content （不支持）
+	</code></pre>
+<ul>
+<li><input disabled="" type="checkbox"> 示例文本</li>
+</ul>
+</li>
+<li><p>创建emoji : </p>
+<pre><code>:emojicode: 
+	</code></pre>
+<p>示例表情：<span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
 <blockquote>
 <p>具体的emoji代码可见：<a target="_blank" rel="noopener" href="https://www.webfx.com/tools/emoji-cheat-sheet/">emoji表情代码</a></p>
 </blockquote>
-<ol start="17">
-<li>创建一个表：<pre><code>使用 | 分列； 使用 – 将表头与表体分离
+</li>
+<li><p>创建一个表：</p>
+<pre><code>使用 | 分列； 使用 – 将表头与表体分离
 
 apple | banana | orange
 ------|--------|-------
@@ -530,20 +604,33 @@ a | b | c
 a | s | d 
 q | w | e 
 
+对齐方式：（不支持）
+	左对齐 `|:--|`
+	右对齐 `|--:|`
+	中对齐 `|:--|`
 	</code></pre>
-
+<table>
+<thead>
+<tr>
+<th align="center">示例表头</th>
+<th align="center">示例表头</th>
+<th align="center">示例表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">示例内容</td>
+<td align="center">示例内容</td>
+<td align="center">示例内容</td>
+</tr>
+</tbody></table>
 </li>
 </ol>
-<blockquote>
-<p>对齐方式：<br>左对齐 <code>:|</code><br>右对齐 <code>|:</code><br>中对齐 <code>:|:</code></p>
-</blockquote>
 <ol start="18">
-<li>将通知发送给某个团队 / 组织：<pre><code>@组织名/团队名
+<li>将通知发送给某个团队 / 组织：<pre><code>@ 组织名/团队名
 	</code></pre>
-
-</li>
+@ 示例组织/示例团队</li>
 </ol>
-<p>[ 测试 ][ link ]<br>[ link ] : <a target="_blank" rel="noopener" href="https://cn.bing.com/">https://cn.bing.com</a></p>
+<p>[ 测试 ][ link ]<br>[ link2 ] : <a target="_blank" rel="noopener" href="https://cn.bing.com/">https://cn.bing.com</a></p>
 
             </div>
             <hr/>
@@ -892,7 +979,7 @@ GitHub类
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">24.5k</span>&nbsp;字
+                class="white-color">24.4k</span>&nbsp;字
             
             
             
