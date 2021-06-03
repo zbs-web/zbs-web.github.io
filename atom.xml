@@ -6,7 +6,7 @@
   <link href="https://zbs-web.github.io/atom.xml" rel="self"/>
   
   <link href="https://zbs-web.github.io/"/>
-  <updated>2021-03-11T01:38:01.376Z</updated>
+  <updated>2021-06-03T07:15:33.892Z</updated>
   <id>https://zbs-web.github.io/</id>
   
   <author>
@@ -21,11 +21,15 @@
     <link href="https://zbs-web.github.io/2021/03/11/oracle-an-zhuang-bu-zou/"/>
     <id>https://zbs-web.github.io/2021/03/11/oracle-an-zhuang-bu-zou/</id>
     <published>2021-03-11T01:38:01.000Z</published>
-    <updated>2021-03-11T01:38:01.376Z</updated>
+    <updated>2021-06-03T07:15:33.892Z</updated>
     
     
     
     
+    <category term="配置类" scheme="https://zbs-web.github.io/categories/%E9%85%8D%E7%BD%AE%E7%B1%BB/"/>
+    
+    
+    <category term="数据库" scheme="https://zbs-web.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -109,7 +113,7 @@
     <link href="https://zbs-web.github.io/2020/12/03/java-xue-xi-bi-ji/"/>
     <id>https://zbs-web.github.io/2020/12/03/java-xue-xi-bi-ji/</id>
     <published>2020-12-03T08:28:36.000Z</published>
-    <updated>2020-12-04T09:40:43.422Z</updated>
+    <updated>2021-06-03T07:06:36.811Z</updated>
     
     
       
@@ -134,7 +138,7 @@
     <link href="https://zbs-web.github.io/2020/12/02/redis-xue-xi-bi-ji/"/>
     <id>https://zbs-web.github.io/2020/12/02/redis-xue-xi-bi-ji/</id>
     <published>2020-12-02T02:08:38.000Z</published>
-    <updated>2020-12-02T09:25:03.890Z</updated>
+    <updated>2021-06-03T07:11:46.470Z</updated>
     
     
       
@@ -150,7 +154,7 @@
     <category term="软件开发类" scheme="https://zbs-web.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%B1%BB/"/>
     
     
-    <category term="Redis, 数据库" scheme="https://zbs-web.github.io/tags/Redis-%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://zbs-web.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -159,7 +163,7 @@
     <link href="https://zbs-web.github.io/2020/11/30/mongodb-xue-xi-bi-ji/"/>
     <id>https://zbs-web.github.io/2020/11/30/mongodb-xue-xi-bi-ji/</id>
     <published>2020-11-30T08:28:59.000Z</published>
-    <updated>2020-12-02T09:19:32.985Z</updated>
+    <updated>2021-06-03T07:14:23.705Z</updated>
     
     
       
@@ -175,7 +179,7 @@
     <category term="软件开发类" scheme="https://zbs-web.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%B1%BB/"/>
     
     
-    <category term="MongoDB, 数据库" scheme="https://zbs-web.github.io/tags/MongoDB-%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://zbs-web.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -184,7 +188,7 @@
     <link href="https://zbs-web.github.io/2020/11/27/json-xue-xi-bi-ji/"/>
     <id>https://zbs-web.github.io/2020/11/27/json-xue-xi-bi-ji/</id>
     <published>2020-11-27T05:39:55.000Z</published>
-    <updated>2020-11-27T09:05:30.888Z</updated>
+    <updated>2021-06-03T07:07:00.619Z</updated>
     
     
       
@@ -209,7 +213,7 @@
     <link href="https://zbs-web.github.io/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/"/>
     <id>https://zbs-web.github.io/2020/04/15/zhong-yi-yu-bao-jian-ke-cheng-bi-ji/</id>
     <published>2020-04-15T01:07:13.000Z</published>
-    <updated>2020-04-15T02:10:50.420Z</updated>
+    <updated>2021-06-03T07:13:37.255Z</updated>
     
     
       
@@ -226,32 +230,7 @@
     <category term="课外学习类" scheme="https://zbs-web.github.io/categories/%E8%AF%BE%E5%A4%96%E5%AD%A6%E4%B9%A0%E7%B1%BB/"/>
     
     
-    <category term="中医" scheme="https://zbs-web.github.io/tags/%E4%B8%AD%E5%8C%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>糖尿病患者的建议</title>
-    <link href="https://zbs-web.github.io/2020/02/15/tang-niao-bing-huan-zhe-de-jian-yi/"/>
-    <id>https://zbs-web.github.io/2020/02/15/tang-niao-bing-huan-zhe-de-jian-yi/</id>
-    <published>2020-02-15T09:08:05.000Z</published>
-    <updated>2021-02-17T13:03:23.081Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;糖尿病患者的建议&quot;&gt;&lt;a href=&quot;#糖尿病患者的建议&quot; class=&quot;headerlink&quot; title=&quot;糖尿病患者的建议&quot;&gt;&lt;/a&gt;糖尿病患者的建议&lt;/h1&gt;&lt;h3 id=&quot;1-控制好血糖&quot;&gt;&lt;a href=&quot;#1-控制好血糖&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="中医养生" scheme="https://zbs-web.github.io/categories/%E4%B8%AD%E5%8C%BB%E5%85%BB%E7%94%9F/"/>
-    
-    
-    <category term="糖尿病" scheme="https://zbs-web.github.io/tags/%E7%B3%96%E5%B0%BF%E7%97%85/"/>
+    <category term="医疗保健" scheme="https://zbs-web.github.io/tags/%E5%8C%BB%E7%96%97%E4%BF%9D%E5%81%A5/"/>
     
   </entry>
   
@@ -502,6 +481,31 @@
     
     
     <category term="Java" scheme="https://zbs-web.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>choco学习感悟</title>
+    <link href="https://zbs-web.github.io/2019/06/28/choco-xue-xi-gan-wu/"/>
+    <id>https://zbs-web.github.io/2019/06/28/choco-xue-xi-gan-wu/</id>
+    <published>2019-06-28T00:20:18.000Z</published>
+    <updated>2020-12-03T07:56:23.197Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;chocolatey学习笔记&quot;&gt;&lt;a href=&quot;#chocolatey学习笔记&quot; class=&quot;headerlink&quot; title=&quot;chocolatey学习笔记&quot;&gt;&lt;/a&gt;chocolatey学习笔记&lt;/h1&gt;&lt;h3 id=&quot;介绍&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="配置类" scheme="https://zbs-web.github.io/categories/%E9%85%8D%E7%BD%AE%E7%B1%BB/"/>
+    
+    
+    <category term="软件包管理器" scheme="https://zbs-web.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/"/>
     
   </entry>
   
